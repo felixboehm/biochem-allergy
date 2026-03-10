@@ -24,7 +24,7 @@ A distillation of seven research documents (~393KB) covering the biochemical cha
 
 ## 1. Eating and Hormones
 
-*Full detail: [hormonal-biochemical-cascade-food-intake.md](hormonal-biochemical-cascade-food-intake.md)*
+*Full detail: [hormonal-biochemical-cascade-food-intake.md](docs/hormonal-biochemical-cascade-food-intake.md)*
 
 Food intake triggers a precisely timed hormonal cascade that governs digestion, absorption, energy storage, and satiety. Understanding this chain matters because inflammation disrupts it at multiple points.
 
@@ -56,7 +56,7 @@ Chronic inflammation disrupts this cascade at every level: blunted incretin sign
 
 ## 2. Nutrients: What the Body Needs and Why
 
-*Full detail: [nutrient-requirements-and-inflammation.md](nutrient-requirements-and-inflammation.md)*
+*Full detail: [nutrient-requirements-and-inflammation.md](docs/nutrient-requirements-and-inflammation.md)*
 
 ### The Critical Nutrients for Inflammation and Recovery
 
@@ -88,7 +88,7 @@ During chronic inflammation, nutrient requirements are not just "higher" -- they
 
 ## 3. Inflammation: From Acute Response to Chronic Trap
 
-*Full detail: [inflammation-biochemistry-nutrient-cycles.md](inflammation-biochemistry-nutrient-cycles.md)*
+*Full detail: [inflammation-biochemistry-nutrient-cycles.md](docs/inflammation-biochemistry-nutrient-cycles.md)*
 
 ### Acute Inflammation: The Normal Program
 
@@ -121,7 +121,7 @@ Chronic inflammation represents simultaneous failures:
 
 ## 4. The Vicious Cycles That Lock Inflammation In
 
-*Full detail: [inflammation-biochemistry-nutrient-cycles.md](inflammation-biochemistry-nutrient-cycles.md)*
+*Full detail: [inflammation-biochemistry-nutrient-cycles.md](docs/inflammation-biochemistry-nutrient-cycles.md)*
 
 These are the self-reinforcing loops that make chronic inflammation so difficult to break. Each nutrient deficiency worsens inflammation, which deepens the deficiency.
 
@@ -194,7 +194,7 @@ All of these cycles interconnect. Gut mucosal damage reduces nutrient absorption
 
 ## 5. Allergy Biochemistry: The IgE Cascade
 
-*Full detail: [allergy-inflammation-nutrition-medications.md](allergy-inflammation-nutrition-medications.md)*
+*Full detail: [allergy-inflammation-nutrition-medications.md](docs/allergy-inflammation-nutrition-medications.md)*
 
 ### Sensitization
 
@@ -228,7 +228,7 @@ Sustained allergic inflammation creates compounding nutrient debt through all th
 
 ## 6. Medication Effects: What They Fix and What They Cost
 
-*Full detail: [allergy-inflammation-nutrition-medications.md](allergy-inflammation-nutrition-medications.md)*
+*Full detail: [allergy-inflammation-nutrition-medications.md](docs/allergy-inflammation-nutrition-medications.md)*
 
 ### Glucocorticoids: The Paradox
 
@@ -266,7 +266,7 @@ A patient on oral prednisone + cetirizine + famotidine + elimination diet faces 
 
 ## 7. The Allergy-to-NARE Transition: When the Driver Changes
 
-*Full detail: [allergy-to-nare-transition.md](allergy-to-nare-transition.md)*
+*Full detail: [allergy-to-nare-transition.md](docs/allergy-to-nare-transition.md)*
 
 The clinical paradox: pollen season ends, but symptoms continue. The underlying driver has changed from IgE/mast cells to eosinophils/ILC2 cells -- but the symptoms look the same.
 
@@ -306,7 +306,7 @@ Allergic inflammation shifts the nasal microbiome: loss of protective commensals
 
 ## 8. NARE: The IgE-Independent Eosinophilic Disease
 
-*Full detail: [NARE-non-allergic-rhinitis-eosinophilia-syndrome.md](NARE-non-allergic-rhinitis-eosinophilia-syndrome.md)*
+*Full detail: [NARE-non-allergic-rhinitis-eosinophilia-syndrome.md](docs/NARE-non-allergic-rhinitis-eosinophilia-syndrome.md)*
 
 ### Definition
 
@@ -356,7 +356,7 @@ NARE nutrient depletion is particularly insidious because:
 
 ## 9. Distinguishing Post-Allergy Lingering from NARE
 
-*Full detail: [allergy-to-nare-transition.md](allergy-to-nare-transition.md), [NARE-non-allergic-rhinitis-eosinophilia-syndrome.md](NARE-non-allergic-rhinitis-eosinophilia-syndrome.md)*
+*Full detail: [allergy-to-nare-transition.md](docs/allergy-to-nare-transition.md), [NARE-non-allergic-rhinitis-eosinophilia-syndrome.md](docs/NARE-non-allergic-rhinitis-eosinophilia-syndrome.md)*
 
 | Feature | Post-Allergy Residual | NARE |
 |---------|----------------------|------|
@@ -391,7 +391,7 @@ NARE nutrient depletion is particularly insidious because:
 
 ## 10. Recovery: What the Body Needs to Heal
 
-*Full detail: [post-allergy-recovery-biochemistry.md](post-allergy-recovery-biochemistry.md)*
+*Full detail: [post-allergy-recovery-biochemistry.md](docs/post-allergy-recovery-biochemistry.md)*
 
 ### Why Symptoms Persist After Allergen Removal
 
@@ -463,7 +463,7 @@ Six overlapping systems sustain inflammation after the trigger is gone:
 
 ## 11. Practical Supplementation Protocol
 
-*Full detail: [post-allergy-recovery-biochemistry.md](post-allergy-recovery-biochemistry.md)*
+*Full detail: [post-allergy-recovery-biochemistry.md](docs/post-allergy-recovery-biochemistry.md)*
 
 ### Phase A: Pre-Season Preparation (Start 6-8 Weeks Before Pollen Season)
 
@@ -565,7 +565,7 @@ Bedtime:   Additional Mg glycinate 100 mg if sleep disturbed
 
 ### Phase C: Post-Season Recovery (Stacking Order)
 
-*This is the protocol from [post-allergy-recovery-biochemistry.md](post-allergy-recovery-biochemistry.md) for when pollen is gone but the body needs to recover from accumulated damage.*
+*This is the protocol from [post-allergy-recovery-biochemistry.md](docs/post-allergy-recovery-biochemistry.md) for when pollen is gone but the body needs to recover from accumulated damage.*
 
 The order matters -- foundational nutrients enable downstream nutrient function.
 
@@ -625,7 +625,7 @@ B-Complex doses: Folate (5-MTHF) 400-800 mcg, B12 (methylcobalamin) 1,000-2,000 
 
 ## 12. Symptoms Mapped to Biochemistry
 
-*Full detail: [inflammation-biochemistry-nutrient-cycles.md](inflammation-biochemistry-nutrient-cycles.md)*
+*Full detail: [inflammation-biochemistry-nutrient-cycles.md](docs/inflammation-biochemistry-nutrient-cycles.md)*
 
 | Symptom | Primary Biochemical Drivers |
 |---------|---------------------------|
@@ -648,7 +648,7 @@ Four analysis pipelines were run against real scientific databases (STRING, NCBI
 
 ### 13.1 Protein Interaction Network & Nutrient Vulnerability
 
-*Report: [allergy_nutrient_vulnerability_report.md](../results/allergy_nutrient_vulnerability_report.md) | Script: `scripts/allergy_nutrient_vulnerability_network.py`*
+*Report: [allergy_nutrient_vulnerability_report.md](results/allergy_nutrient_vulnerability_report.md) | Script: `scripts/allergy_nutrient_vulnerability_network.py`*
 
 Queried STRING database for interactions around 19 seed proteins (histamine metabolism, mast cell signaling, inflammation, cytokines, eosinophil markers). Built a network of **191 proteins and 1,634 interactions**, then overlaid nutrient cofactor dependencies for 7 nutrients (Mg, Zn, Fe, Se, B6, vitamin C, Cu).
 
@@ -661,15 +661,21 @@ Queried STRING database for interactions around 19 seed proteins (histamine meta
 - **Copper → AOC1 (DAO)** is the critical single-nutrient bottleneck for histamine degradation. No copper = no DAO activity = histamine accumulates regardless of other interventions.
 
 **Figures:**
-- `network_nutrient_dependency.png` — 191-protein network colored by nutrient dependency
-- `protein_nutrient_heatmap.png` — which protein needs which nutrient
-- `vulnerability_ranking.png` — top 35 proteins ranked by composite vulnerability score
+
+![Allergy-Inflammation Protein Network](results/figures/network_nutrient_dependency.png)
+*191-protein network colored by nutrient cofactor dependency*
+
+![Protein-Nutrient Heatmap](results/figures/protein_nutrient_heatmap.png)
+*Which protein needs which nutrient*
+
+![Vulnerability Ranking](results/figures/vulnerability_ranking.png)
+*Top 35 proteins ranked by composite vulnerability score*
 
 ---
 
 ### 13.2 Gene Expression in Allergic Rhinitis Patients
 
-*Report: [geo_gene_expression_report.md](../results/geo_gene_expression_report.md) | Script: `scripts/geo_allergy_gene_mining.py`*
+*Report: [geo_gene_expression_report.md](results/geo_gene_expression_report.md) | Script: `scripts/geo_allergy_gene_mining.py`*
 
 Analyzed two real patient datasets from NCBI GEO:
 - **GSE101720**: Nasal epithelium RNA-seq — 7 asthma+rhinitis, 10 rhinitis-only, 9 healthy controls
@@ -687,16 +693,24 @@ Examined 71 target genes across 10 functional categories, combined with literatu
 - **Antioxidant futility**: GPX1↑, SOD1/2↑ (expression increased = body is trying to compensate) but their cofactors (selenium, Mn, Cu/Zn) are depleted by inflammatory demand. The enzymes are upregulated but running on empty.
 
 **Figures:**
-- `gene_expression_heatmap.png` — 71 genes across functional categories, colored by fold change (red=up, blue=down)
-- `gene_dotplot_nutrients.png` — genes annotated with their nutrient cofactor dependencies
-- `pathway_nutrient_network.png` — nutrient cofactors → dependent enzymes, colored by expression change
-- `nutrient_demand_summary.png` — which nutrients face the highest demand increase
+
+![Gene Expression Heatmap](results/figures/gene_expression_heatmap.png)
+*71 genes across functional categories — red = upregulated, blue = downregulated in allergic rhinitis*
+
+![Pathway-Nutrient Network](results/figures/pathway_nutrient_network.png)
+*Nutrient cofactors → dependent enzymes, colored by expression change in patient data*
+
+![Gene Dot Plot](results/figures/gene_dotplot_nutrients.png)
+*Genes annotated with their nutrient cofactor dependencies*
+
+![Nutrient Demand Summary](results/figures/nutrient_demand_summary.png)
+*Which nutrients face the highest demand increase during allergic inflammation*
 
 ---
 
 ### 13.3 Structural Biology: Why Cofactors Matter at the Atomic Level
 
-*Report: [structural-analysis-report.md](../results/structural-analysis-report.md) | Script: `scripts/structural_analysis.py`*
+*Report: [structural-analysis-report.md](results/structural-analysis-report.md) | Script: `scripts/structural_analysis.py`*
 
 Retrieved 7 crystal structures from RCSB PDB and analyzed cofactor binding sites using BioPython:
 
@@ -717,17 +731,27 @@ Retrieved 7 crystal structures from RCSB PDB and analyzed cofactor binding sites
 - **SOD1 without zinc**: Zinc stabilizes the enzyme's beta-barrel structure. Loss of Zn destabilizes SOD1, leading to misfolding and aggregation — the enzyme doesn't just lose activity, it becomes potentially toxic.
 
 **Figures:**
-- `comparative_summary.png` — all 7 enzymes side-by-side: cofactor, nutrients needed, what happens when deficient, clinical consequence
-- `nutrient_enzyme_network.png` — flow diagram: nutrients → enzymes → consequences when deficient
-- 7× `schematic_*.png` — three-panel diagrams per enzyme (active / depleted / clinical cascade)
-- 7× `binding_site_*.png` — cofactor coordination with distances in Å
-- 7× `structure_3d_*.png` — Cα-trace with metal/cofactor positions highlighted
+
+![Comparative Summary](results/figures/comparative_summary.png)
+*All 7 enzymes side-by-side: cofactor, nutrients needed, what happens when deficient, clinical consequence*
+
+![Nutrient-Enzyme-Consequence Network](results/figures/nutrient_enzyme_network.png)
+*Flow diagram: nutrients → enzymes → consequences when deficient*
+
+Individual enzyme schematics (active enzyme / depleted / clinical cascade):
+[DAO](results/figures/schematic_DAO.png) | [HNMT](results/figures/schematic_HNMT.png) | [HDC](results/figures/schematic_HDC.png) | [IDO1](results/figures/schematic_IDO1.png) | [ALOX5](results/figures/schematic_ALOX5.png) | [SOD1](results/figures/schematic_SOD1.png) | [GPX1](results/figures/schematic_GPX1.png)
+
+Cofactor binding sites with distances in Å:
+[DAO](results/figures/binding_site_DAO.png) | [HNMT](results/figures/binding_site_HNMT.png) | [HDC](results/figures/binding_site_HDC.png) | [IDO1](results/figures/binding_site_IDO1.png) | [ALOX5](results/figures/binding_site_ALOX5.png) | [SOD1](results/figures/binding_site_SOD1.png) | [GPX1](results/figures/binding_site_GPX1.png)
+
+3D structures (Cα-trace with metal/cofactor positions):
+[DAO](results/figures/structure_3d_DAO.png) | [HNMT](results/figures/structure_3d_HNMT.png) | [HDC](results/figures/structure_3d_HDC.png) | [IDO1](results/figures/structure_3d_IDO1.png) | [ALOX5](results/figures/structure_3d_ALOX5.png) | [SOD1](results/figures/structure_3d_SOD1.png) | [GPX1](results/figures/structure_3d_GPX1.png)
 
 ---
 
 ### 13.4 Drug-Nutrient Interaction Matrix
 
-*Report: [drug-nutrient-interaction-report.md](../results/drug-nutrient-interaction-report.md) | Script: `scripts/drug_nutrient_interactions.py`*
+*Report: [drug-nutrient-interaction-report.md](results/drug-nutrient-interaction-report.md) | Script: `scripts/drug_nutrient_interactions.py`*
 
 Systematically analyzed **32 allergy medications** across 8 drug classes against **16 nutrients**, querying PubChem and ChEMBL APIs and cross-referencing with pharmacological literature. Result: **488 drug-nutrient interaction entries**, of which **148 are non-neutral**.
 
@@ -751,9 +775,15 @@ Systematically analyzed **32 allergy medications** across 8 drug classes against
 | **LOW RISK** (-1.5 to 0) | Potassium (-0.8), Vitamin C (-0.8), Vitamin D (-0.2), Vitamin A (-0.2), Sodium (-0.1) |
 
 **Figures:**
-- `drug_nutrient_heatmap.png` — 32 drugs × 16 nutrients, annotated with interaction type, grouped by drug class
-- `cumulative_depletion_risk.png` — bar chart of cumulative nutrient risk for the typical allergy patient
-- `pathway_flow_diagram.png` — drug classes → mechanisms → nutrients affected (Sankey-style flow)
+
+![Drug-Nutrient Interaction Heatmap](results/figures/drug_nutrient_heatmap.png)
+*32 drugs × 16 nutrients — D=Depletes, BA=Blocks Absorption, ID=Increases Demand, R=Redistributes, B=Beneficial*
+
+![Cumulative Depletion Risk](results/figures/cumulative_depletion_risk.png)
+*Typical allergy patient on cetirizine + fluticasone + famotidine + montelukast + occasional prednisone*
+
+![Drug-Mechanism-Nutrient Pathway Map](results/figures/pathway_flow_diagram.png)
+*Drug classes → mechanisms of action → nutrients affected*
 
 ---
 
@@ -781,10 +811,10 @@ Systematically analyzed **32 allergy medications** across 8 drug classes against
 
 For full biochemical detail on any topic covered here:
 
-1. [Hormonal and Biochemical Cascade Triggered by Food Intake](hormonal-biochemical-cascade-food-intake.md) -- cephalic phase, digestive hormones, insulin/glucagon axis, nutrient sensing, cortisol, thyroid
-2. [Optimal Nutrient Requirements and the Impact of Inflammation](nutrient-requirements-and-inflammation.md) -- macronutrients, minerals, vitamins, daily amounts, inflammatory changes, nutrient interactions
-3. [Biochemistry of Inflammation, Chronic Inflammation, and Nutrient Deficiency Vicious Cycles](inflammation-biochemistry-nutrient-cycles.md) -- NF-kB, COX/LOX, resolution mediators, stuck states, nutrient cycles, symptom mapping
-4. [Allergy Biochemistry: Inflammation, Nutrition, and Medication Effects](allergy-inflammation-nutrition-medications.md) -- IgE cascade, mast cells, eosinophils, glucocorticoid paradox, antihistamine/H2 blocker/montelukast effects
-5. [The Allergy-to-NARE Transition](allergy-to-nare-transition.md) -- epithelial reprogramming, barrier damage, neurogenic lock-in, eosinophil self-sustaining loops, microbiome shift
-6. [Post-Allergen Exposure Recovery: Comprehensive Biochemistry](post-allergy-recovery-biochemistry.md) -- why symptoms persist, nutrient debt, repair checklist, supplementation protocol with doses/forms/timing, recovery timeline
-7. [NARE/NARES: Non-Allergic Rhinitis with Eosinophilia Syndrome](NARE-non-allergic-rhinitis-eosinophilia-syndrome.md) -- ILC2/alarmin pathways, eosinophil granule proteins, N-ERD progression, treatment approaches, diagnostic workup
+1. [Hormonal and Biochemical Cascade Triggered by Food Intake](docs/hormonal-biochemical-cascade-food-intake.md) -- cephalic phase, digestive hormones, insulin/glucagon axis, nutrient sensing, cortisol, thyroid
+2. [Optimal Nutrient Requirements and the Impact of Inflammation](docs/nutrient-requirements-and-inflammation.md) -- macronutrients, minerals, vitamins, daily amounts, inflammatory changes, nutrient interactions
+3. [Biochemistry of Inflammation, Chronic Inflammation, and Nutrient Deficiency Vicious Cycles](docs/inflammation-biochemistry-nutrient-cycles.md) -- NF-kB, COX/LOX, resolution mediators, stuck states, nutrient cycles, symptom mapping
+4. [Allergy Biochemistry: Inflammation, Nutrition, and Medication Effects](docs/allergy-inflammation-nutrition-medications.md) -- IgE cascade, mast cells, eosinophils, glucocorticoid paradox, antihistamine/H2 blocker/montelukast effects
+5. [The Allergy-to-NARE Transition](docs/allergy-to-nare-transition.md) -- epithelial reprogramming, barrier damage, neurogenic lock-in, eosinophil self-sustaining loops, microbiome shift
+6. [Post-Allergen Exposure Recovery: Comprehensive Biochemistry](docs/post-allergy-recovery-biochemistry.md) -- why symptoms persist, nutrient debt, repair checklist, supplementation protocol with doses/forms/timing, recovery timeline
+7. [NARE/NARES: Non-Allergic Rhinitis with Eosinophilia Syndrome](docs/NARE-non-allergic-rhinitis-eosinophilia-syndrome.md) -- ILC2/alarmin pathways, eosinophil granule proteins, N-ERD progression, treatment approaches, diagnostic workup
