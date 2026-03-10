@@ -54,11 +54,25 @@ Why symptoms persist after pollen disappears — the mechanistic shift from IgE-
 - Diagnostic workup (nasal cytology, blood markers)
 - Progression risk: NARE → nasal polyps → asthma → Samter's triad
 
-### 6. [Post-Allergy Recovery & Nutrition](post-allergy-recovery-nutrition.md) *(pending)*
+### 6. [Post-Allergy Recovery & Nutrition](post-allergy-recovery-biochemistry.md)
 What the body needs to return to baseline after allergy season.
+- Why symptoms persist: tissue-resident Th2/ILC2, mast cell priming, mucosal remodeling, neurogenic lock-in
+- Quantified nutrient debt: DAO cofactors, antioxidant depletion, tryptophan/IDO1 shunting, Mg-ATP deficit
+- Biochemical repair checklist: SPM synthesis, barrier repair, immune rebalancing, mast cell stabilization
+- 12-nutrient supplementation protocol (forms, doses, timing, interactions)
+- 4-week stacking order with rationale
+- 12-week recovery timeline with milestones
+- Recovery-delaying factors (stress, sleep, gut dysbiosis, PPIs, NSAIDs)
 
-### 7. [NARE — Full Biochemical Reference](nare-non-allergic-rhinitis-eosinophilia.md) *(pending)*
+### 7. [NARE — Full Biochemical Reference](NARE-non-allergic-rhinitis-eosinophilia-syndrome.md)
 Complete NARE pathophysiology, diagnosis, and management.
+- IgE-independent eosinophil recruitment: alarmin → ILC2 → IL-5 pathway
+- Eosinophil granule proteins (MBP, ECP, EPO, EDN) and tissue damage
+- Neurogenic component (TRPV1, substance P, parasympathetic hyperreactivity)
+- PGD2/CRTH2 positive feedback and cysteinyl leukotriene involvement
+- Relationship to aspirin triad / N-ERD progression
+- Diagnostic criteria and nasal cytology interpretation
+- Treatment: intranasal steroids, montelukast, biologics, capsaicin desensitization
 
 ## Reading Paths
 
