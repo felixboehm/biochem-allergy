@@ -1,0 +1,489 @@
+drug,drug_class,nutrient,interaction_type,confidence,mechanism
+famotidine,H2 Blocker,Calcium,BLOCKS_ABSORPTION,ESTABLISHED,"Gastric acid required for calcium salt dissolution; H2 blockade raises gastric pH, reducing ionized Ca²⁺ available for absorption via TRPV6/CaT1 in duodenum"
+famotidine,H2 Blocker,Iron,BLOCKS_ABSORPTION,ESTABLISHED,Gastric acid converts Fe³⁺ to absorbable Fe²⁺; elevated pH impairs non-heme iron reduction and DMT1/SLC11A2-mediated uptake
+famotidine,H2 Blocker,Zinc,BLOCKS_ABSORPTION,PROBABLE,Zinc absorption partially pH-dependent; reduced acid may decrease Zn²⁺ liberation from food matrices and ZIP4/SLC39A4 transport
+famotidine,H2 Blocker,Magnesium,BLOCKS_ABSORPTION,PROBABLE,Chronic acid suppression associated with hypomagnesemia; impaired TRPM6/7 channel-mediated Mg²⁺ absorption in distal intestine
+famotidine,H2 Blocker,Vitamin B12,BLOCKS_ABSORPTION,ESTABLISHED,Gastric acid + pepsin required to cleave B12 from food proteins; acid suppression prevents B12 release for intrinsic factor binding
+famotidine,H2 Blocker,Folate (B9),BLOCKS_ABSORPTION,PROBABLE,Acidic pH optimizes polyglutamate hydrolysis by jejunal conjugase; elevated pH reduces folate monoglutamate generation for PCFT/SLC46A1 uptake
+famotidine,H2 Blocker,Chromium,BLOCKS_ABSORPTION,THEORETICAL,Chromium absorption may be partially pH-dependent; acid suppression could reduce Cr³⁺ solubility
+famotidine,H2 Blocker,Phosphorus,BLOCKS_ABSORPTION,THEORETICAL,Phosphate absorption partially acid-dependent for liberation from food
+famotidine,H2 Blocker,Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction; vitamin C absorption via SLC23A1 is pH-independent
+cimetidine,H2 Blocker,Calcium,BLOCKS_ABSORPTION,ESTABLISHED,"Gastric acid required for calcium salt dissolution; H2 blockade raises gastric pH, reducing ionized Ca²⁺ available for absorption via TRPV6/CaT1 in duodenum"
+cimetidine,H2 Blocker,Iron,BLOCKS_ABSORPTION,ESTABLISHED,Gastric acid converts Fe³⁺ to absorbable Fe²⁺; elevated pH impairs non-heme iron reduction and DMT1/SLC11A2-mediated uptake
+cimetidine,H2 Blocker,Zinc,BLOCKS_ABSORPTION,PROBABLE,Zinc absorption partially pH-dependent; reduced acid may decrease Zn²⁺ liberation from food matrices and ZIP4/SLC39A4 transport
+cimetidine,H2 Blocker,Magnesium,BLOCKS_ABSORPTION,PROBABLE,Chronic acid suppression associated with hypomagnesemia; impaired TRPM6/7 channel-mediated Mg²⁺ absorption in distal intestine
+cimetidine,H2 Blocker,Vitamin B12,BLOCKS_ABSORPTION,ESTABLISHED,Gastric acid + pepsin required to cleave B12 from food proteins; acid suppression prevents B12 release for intrinsic factor binding
+cimetidine,H2 Blocker,Folate (B9),BLOCKS_ABSORPTION,PROBABLE,Acidic pH optimizes polyglutamate hydrolysis by jejunal conjugase; elevated pH reduces folate monoglutamate generation for PCFT/SLC46A1 uptake
+cimetidine,H2 Blocker,Chromium,BLOCKS_ABSORPTION,THEORETICAL,Chromium absorption may be partially pH-dependent; acid suppression could reduce Cr³⁺ solubility
+cimetidine,H2 Blocker,Phosphorus,BLOCKS_ABSORPTION,THEORETICAL,Phosphate absorption partially acid-dependent for liberation from food
+cimetidine,H2 Blocker,Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction; vitamin C absorption via SLC23A1 is pH-independent
+ranitidine,H2 Blocker,Calcium,BLOCKS_ABSORPTION,ESTABLISHED,"Gastric acid required for calcium salt dissolution; H2 blockade raises gastric pH, reducing ionized Ca²⁺ available for absorption via TRPV6/CaT1 in duodenum"
+ranitidine,H2 Blocker,Iron,BLOCKS_ABSORPTION,ESTABLISHED,Gastric acid converts Fe³⁺ to absorbable Fe²⁺; elevated pH impairs non-heme iron reduction and DMT1/SLC11A2-mediated uptake
+ranitidine,H2 Blocker,Zinc,BLOCKS_ABSORPTION,PROBABLE,Zinc absorption partially pH-dependent; reduced acid may decrease Zn²⁺ liberation from food matrices and ZIP4/SLC39A4 transport
+ranitidine,H2 Blocker,Magnesium,BLOCKS_ABSORPTION,PROBABLE,Chronic acid suppression associated with hypomagnesemia; impaired TRPM6/7 channel-mediated Mg²⁺ absorption in distal intestine
+ranitidine,H2 Blocker,Vitamin B12,BLOCKS_ABSORPTION,ESTABLISHED,Gastric acid + pepsin required to cleave B12 from food proteins; acid suppression prevents B12 release for intrinsic factor binding
+ranitidine,H2 Blocker,Folate (B9),BLOCKS_ABSORPTION,PROBABLE,Acidic pH optimizes polyglutamate hydrolysis by jejunal conjugase; elevated pH reduces folate monoglutamate generation for PCFT/SLC46A1 uptake
+ranitidine,H2 Blocker,Chromium,BLOCKS_ABSORPTION,THEORETICAL,Chromium absorption may be partially pH-dependent; acid suppression could reduce Cr³⁺ solubility
+ranitidine,H2 Blocker,Phosphorus,BLOCKS_ABSORPTION,THEORETICAL,Phosphate absorption partially acid-dependent for liberation from food
+ranitidine,H2 Blocker,Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction; vitamin C absorption via SLC23A1 is pH-independent
+cimetidine,H2 Blocker,Vitamin D,BLOCKS_ABSORPTION,PROBABLE,"Cimetidine inhibits CYP3A4 and CYP27A1, potentially reducing 25-hydroxylation of vitamin D in liver; also gastric pH effect"
+prednisone,Oral Corticosteroid,Calcium,DEPLETES,ESTABLISHED,"Corticosteroids reduce intestinal Ca²⁺ absorption (downregulate TRPV6, calbindin-D9k, CaBP-28k), increase renal Ca²⁺ excretion, and stimulate osteoclast-mediated bone resorption → hypercalciuria"
+prednisone,Oral Corticosteroid,Vitamin D,INCREASES_DEMAND,ESTABLISHED,"Corticosteroids accelerate CYP24A1-mediated 24-hydroxylation (inactivation) of 25(OH)D and 1,25(OH)₂D; also reduce VDR expression, creating functional vitamin D resistance"
+prednisone,Oral Corticosteroid,Potassium,DEPLETES,ESTABLISHED,Mineralocorticoid activity increases renal K⁺ secretion via ENaC/ROMK in collecting duct; hypokalemia is a recognized adverse effect
+prednisone,Oral Corticosteroid,Magnesium,DEPLETES,PROBABLE,Increased renal Mg²⁺ wasting via reduced TRPM6 expression in distal convoluted tubule; also redistribution into cells
+prednisone,Oral Corticosteroid,Zinc,DEPLETES,PROBABLE,Corticosteroids increase urinary zinc excretion; metallothionein induction may sequester Zn²⁺ intracellularly; zinc needed for immune function already stressed by corticosteroid use
+prednisone,Oral Corticosteroid,Vitamin C,DEPLETES,PROBABLE,Corticosteroids increase oxidative stress and ascorbate consumption; adrenal glands have highest vitamin C concentration and steroids increase ascorbate utilization in cortisol synthesis pathways
+prednisone,Oral Corticosteroid,Vitamin B6,INCREASES_DEMAND,PROBABLE,"Corticosteroids increase tryptophan catabolism via kynurenine pathway (IDO1/TDO2 induction), which consumes PLP (B6) as cofactor; may cause functional B6 deficiency"
+prednisone,Oral Corticosteroid,Chromium,DEPLETES,PROBABLE,Corticosteroid-induced insulin resistance increases chromium excretion; hyperglycemia drives urinary Cr loss
+prednisone,Oral Corticosteroid,Sodium,REDISTRIBUTES,ESTABLISHED,Mineralocorticoid effect increases renal Na⁺ reabsorption; fluid retention and edema; sodium accumulates rather than depletes
+prednisone,Oral Corticosteroid,Selenium,INCREASES_DEMAND,THEORETICAL,"Oxidative stress from corticosteroid use increases demand for selenoprotein-dependent antioxidant defense (GPx, TrxR)"
+prednisone,Oral Corticosteroid,Phosphorus,DEPLETES,PROBABLE,Corticosteroids reduce renal phosphate reabsorption (NaPi-IIa/IIc); combined with vitamin D impairment reduces phosphorus homeostasis
+prednisone,Oral Corticosteroid,Folate (B9),INCREASES_DEMAND,THEORETICAL,Increased cell turnover and immune modulation may increase folate demand for one-carbon metabolism
+prednisone,Oral Corticosteroid,Iron,REDISTRIBUTES,THEORETICAL,"Corticosteroids may increase hepcidin via IL-6 modulation, sequestering iron in macrophages (functional iron deficiency pattern)"
+prednisone,Oral Corticosteroid,Vitamin A,INCREASES_DEMAND,THEORETICAL,Immune modulation by corticosteroids may alter retinoid signaling; wound healing impairment partly related to vitamin A pathway disruption
+prednisone,Oral Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,No significant direct interaction with vitamin K metabolism
+prednisolone,Oral Corticosteroid,Calcium,DEPLETES,ESTABLISHED,"Corticosteroids reduce intestinal Ca²⁺ absorption (downregulate TRPV6, calbindin-D9k, CaBP-28k), increase renal Ca²⁺ excretion, and stimulate osteoclast-mediated bone resorption → hypercalciuria"
+prednisolone,Oral Corticosteroid,Vitamin D,INCREASES_DEMAND,ESTABLISHED,"Corticosteroids accelerate CYP24A1-mediated 24-hydroxylation (inactivation) of 25(OH)D and 1,25(OH)₂D; also reduce VDR expression, creating functional vitamin D resistance"
+prednisolone,Oral Corticosteroid,Potassium,DEPLETES,ESTABLISHED,Mineralocorticoid activity increases renal K⁺ secretion via ENaC/ROMK in collecting duct; hypokalemia is a recognized adverse effect
+prednisolone,Oral Corticosteroid,Magnesium,DEPLETES,PROBABLE,Increased renal Mg²⁺ wasting via reduced TRPM6 expression in distal convoluted tubule; also redistribution into cells
+prednisolone,Oral Corticosteroid,Zinc,DEPLETES,PROBABLE,Corticosteroids increase urinary zinc excretion; metallothionein induction may sequester Zn²⁺ intracellularly; zinc needed for immune function already stressed by corticosteroid use
+prednisolone,Oral Corticosteroid,Vitamin C,DEPLETES,PROBABLE,Corticosteroids increase oxidative stress and ascorbate consumption; adrenal glands have highest vitamin C concentration and steroids increase ascorbate utilization in cortisol synthesis pathways
+prednisolone,Oral Corticosteroid,Vitamin B6,INCREASES_DEMAND,PROBABLE,"Corticosteroids increase tryptophan catabolism via kynurenine pathway (IDO1/TDO2 induction), which consumes PLP (B6) as cofactor; may cause functional B6 deficiency"
+prednisolone,Oral Corticosteroid,Chromium,DEPLETES,PROBABLE,Corticosteroid-induced insulin resistance increases chromium excretion; hyperglycemia drives urinary Cr loss
+prednisolone,Oral Corticosteroid,Sodium,REDISTRIBUTES,ESTABLISHED,Mineralocorticoid effect increases renal Na⁺ reabsorption; fluid retention and edema; sodium accumulates rather than depletes
+prednisolone,Oral Corticosteroid,Selenium,INCREASES_DEMAND,THEORETICAL,"Oxidative stress from corticosteroid use increases demand for selenoprotein-dependent antioxidant defense (GPx, TrxR)"
+prednisolone,Oral Corticosteroid,Phosphorus,DEPLETES,PROBABLE,Corticosteroids reduce renal phosphate reabsorption (NaPi-IIa/IIc); combined with vitamin D impairment reduces phosphorus homeostasis
+prednisolone,Oral Corticosteroid,Folate (B9),INCREASES_DEMAND,THEORETICAL,Increased cell turnover and immune modulation may increase folate demand for one-carbon metabolism
+prednisolone,Oral Corticosteroid,Iron,REDISTRIBUTES,THEORETICAL,"Corticosteroids may increase hepcidin via IL-6 modulation, sequestering iron in macrophages (functional iron deficiency pattern)"
+prednisolone,Oral Corticosteroid,Vitamin A,INCREASES_DEMAND,THEORETICAL,Immune modulation by corticosteroids may alter retinoid signaling; wound healing impairment partly related to vitamin A pathway disruption
+prednisolone,Oral Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,No significant direct interaction with vitamin K metabolism
+methylprednisolone,Oral Corticosteroid,Calcium,DEPLETES,ESTABLISHED,"Corticosteroids reduce intestinal Ca²⁺ absorption (downregulate TRPV6, calbindin-D9k, CaBP-28k), increase renal Ca²⁺ excretion, and stimulate osteoclast-mediated bone resorption → hypercalciuria"
+methylprednisolone,Oral Corticosteroid,Vitamin D,INCREASES_DEMAND,ESTABLISHED,"Corticosteroids accelerate CYP24A1-mediated 24-hydroxylation (inactivation) of 25(OH)D and 1,25(OH)₂D; also reduce VDR expression, creating functional vitamin D resistance"
+methylprednisolone,Oral Corticosteroid,Potassium,DEPLETES,ESTABLISHED,Mineralocorticoid activity increases renal K⁺ secretion via ENaC/ROMK in collecting duct; hypokalemia is a recognized adverse effect
+methylprednisolone,Oral Corticosteroid,Magnesium,DEPLETES,PROBABLE,Increased renal Mg²⁺ wasting via reduced TRPM6 expression in distal convoluted tubule; also redistribution into cells
+methylprednisolone,Oral Corticosteroid,Zinc,DEPLETES,PROBABLE,Corticosteroids increase urinary zinc excretion; metallothionein induction may sequester Zn²⁺ intracellularly; zinc needed for immune function already stressed by corticosteroid use
+methylprednisolone,Oral Corticosteroid,Vitamin C,DEPLETES,PROBABLE,Corticosteroids increase oxidative stress and ascorbate consumption; adrenal glands have highest vitamin C concentration and steroids increase ascorbate utilization in cortisol synthesis pathways
+methylprednisolone,Oral Corticosteroid,Vitamin B6,INCREASES_DEMAND,PROBABLE,"Corticosteroids increase tryptophan catabolism via kynurenine pathway (IDO1/TDO2 induction), which consumes PLP (B6) as cofactor; may cause functional B6 deficiency"
+methylprednisolone,Oral Corticosteroid,Chromium,DEPLETES,PROBABLE,Corticosteroid-induced insulin resistance increases chromium excretion; hyperglycemia drives urinary Cr loss
+methylprednisolone,Oral Corticosteroid,Sodium,REDISTRIBUTES,ESTABLISHED,Mineralocorticoid effect increases renal Na⁺ reabsorption; fluid retention and edema; sodium accumulates rather than depletes
+methylprednisolone,Oral Corticosteroid,Selenium,INCREASES_DEMAND,THEORETICAL,"Oxidative stress from corticosteroid use increases demand for selenoprotein-dependent antioxidant defense (GPx, TrxR)"
+methylprednisolone,Oral Corticosteroid,Phosphorus,DEPLETES,PROBABLE,Corticosteroids reduce renal phosphate reabsorption (NaPi-IIa/IIc); combined with vitamin D impairment reduces phosphorus homeostasis
+methylprednisolone,Oral Corticosteroid,Folate (B9),INCREASES_DEMAND,THEORETICAL,Increased cell turnover and immune modulation may increase folate demand for one-carbon metabolism
+methylprednisolone,Oral Corticosteroid,Iron,REDISTRIBUTES,THEORETICAL,"Corticosteroids may increase hepcidin via IL-6 modulation, sequestering iron in macrophages (functional iron deficiency pattern)"
+methylprednisolone,Oral Corticosteroid,Vitamin A,INCREASES_DEMAND,THEORETICAL,Immune modulation by corticosteroids may alter retinoid signaling; wound healing impairment partly related to vitamin A pathway disruption
+methylprednisolone,Oral Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,No significant direct interaction with vitamin K metabolism
+dexamethasone,Oral Corticosteroid,Calcium,DEPLETES,ESTABLISHED,"Corticosteroids reduce intestinal Ca²⁺ absorption (downregulate TRPV6, calbindin-D9k, CaBP-28k), increase renal Ca²⁺ excretion, and stimulate osteoclast-mediated bone resorption → hypercalciuria"
+dexamethasone,Oral Corticosteroid,Vitamin D,INCREASES_DEMAND,ESTABLISHED,"Corticosteroids accelerate CYP24A1-mediated 24-hydroxylation (inactivation) of 25(OH)D and 1,25(OH)₂D; also reduce VDR expression, creating functional vitamin D resistance"
+dexamethasone,Oral Corticosteroid,Potassium,DEPLETES,ESTABLISHED,Mineralocorticoid activity increases renal K⁺ secretion via ENaC/ROMK in collecting duct; hypokalemia is a recognized adverse effect
+dexamethasone,Oral Corticosteroid,Magnesium,DEPLETES,PROBABLE,Increased renal Mg²⁺ wasting via reduced TRPM6 expression in distal convoluted tubule; also redistribution into cells
+dexamethasone,Oral Corticosteroid,Zinc,DEPLETES,PROBABLE,Corticosteroids increase urinary zinc excretion; metallothionein induction may sequester Zn²⁺ intracellularly; zinc needed for immune function already stressed by corticosteroid use
+dexamethasone,Oral Corticosteroid,Vitamin C,DEPLETES,PROBABLE,Corticosteroids increase oxidative stress and ascorbate consumption; adrenal glands have highest vitamin C concentration and steroids increase ascorbate utilization in cortisol synthesis pathways
+dexamethasone,Oral Corticosteroid,Vitamin B6,INCREASES_DEMAND,PROBABLE,"Corticosteroids increase tryptophan catabolism via kynurenine pathway (IDO1/TDO2 induction), which consumes PLP (B6) as cofactor; may cause functional B6 deficiency"
+dexamethasone,Oral Corticosteroid,Chromium,DEPLETES,PROBABLE,Corticosteroid-induced insulin resistance increases chromium excretion; hyperglycemia drives urinary Cr loss
+dexamethasone,Oral Corticosteroid,Sodium,REDISTRIBUTES,ESTABLISHED,Mineralocorticoid effect increases renal Na⁺ reabsorption; fluid retention and edema; sodium accumulates rather than depletes
+dexamethasone,Oral Corticosteroid,Selenium,INCREASES_DEMAND,THEORETICAL,"Oxidative stress from corticosteroid use increases demand for selenoprotein-dependent antioxidant defense (GPx, TrxR)"
+dexamethasone,Oral Corticosteroid,Phosphorus,DEPLETES,PROBABLE,Corticosteroids reduce renal phosphate reabsorption (NaPi-IIa/IIc); combined with vitamin D impairment reduces phosphorus homeostasis
+dexamethasone,Oral Corticosteroid,Folate (B9),INCREASES_DEMAND,THEORETICAL,Increased cell turnover and immune modulation may increase folate demand for one-carbon metabolism
+dexamethasone,Oral Corticosteroid,Iron,REDISTRIBUTES,THEORETICAL,"Corticosteroids may increase hepcidin via IL-6 modulation, sequestering iron in macrophages (functional iron deficiency pattern)"
+dexamethasone,Oral Corticosteroid,Vitamin A,INCREASES_DEMAND,THEORETICAL,Immune modulation by corticosteroids may alter retinoid signaling; wound healing impairment partly related to vitamin A pathway disruption
+dexamethasone,Oral Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,No significant direct interaction with vitamin K metabolism
+fluticasone,Intranasal Corticosteroid,Calcium,DEPLETES,THEORETICAL,"Systemic bioavailability is low (fluticasone <2%, mometasone <0.1%), but chronic use may have subtle effects on calcium metabolism; high-dose intranasal use shows measurable HPA suppression in some studies"
+fluticasone,Intranasal Corticosteroid,Vitamin D,INCREASES_DEMAND,THEORETICAL,Minimal systemic exposure but theoretical CYP24A1 induction; clinically significant only at high doses or with concurrent oral steroids
+fluticasone,Intranasal Corticosteroid,Magnesium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Zinc,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Iron,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Potassium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Vitamin B12,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Folate (B9),NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Vitamin B6,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Vitamin C,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Vitamin A,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Chromium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Selenium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Phosphorus,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+fluticasone,Intranasal Corticosteroid,Sodium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Calcium,DEPLETES,THEORETICAL,"Systemic bioavailability is low (fluticasone <2%, mometasone <0.1%), but chronic use may have subtle effects on calcium metabolism; high-dose intranasal use shows measurable HPA suppression in some studies"
+mometasone,Intranasal Corticosteroid,Vitamin D,INCREASES_DEMAND,THEORETICAL,Minimal systemic exposure but theoretical CYP24A1 induction; clinically significant only at high doses or with concurrent oral steroids
+mometasone,Intranasal Corticosteroid,Magnesium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Zinc,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Iron,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Potassium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Vitamin B12,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Folate (B9),NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Vitamin B6,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Vitamin C,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Vitamin A,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Chromium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Selenium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Phosphorus,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+mometasone,Intranasal Corticosteroid,Sodium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Calcium,DEPLETES,THEORETICAL,"Systemic bioavailability is low (fluticasone <2%, mometasone <0.1%), but chronic use may have subtle effects on calcium metabolism; high-dose intranasal use shows measurable HPA suppression in some studies"
+budesonide,Intranasal Corticosteroid,Vitamin D,INCREASES_DEMAND,THEORETICAL,Minimal systemic exposure but theoretical CYP24A1 induction; clinically significant only at high doses or with concurrent oral steroids
+budesonide,Intranasal Corticosteroid,Magnesium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Zinc,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Iron,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Potassium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Vitamin B12,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Folate (B9),NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Vitamin B6,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Vitamin C,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Vitamin A,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Chromium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Selenium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Phosphorus,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+budesonide,Intranasal Corticosteroid,Sodium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Calcium,DEPLETES,THEORETICAL,"Systemic bioavailability is low (fluticasone <2%, mometasone <0.1%), but chronic use may have subtle effects on calcium metabolism; high-dose intranasal use shows measurable HPA suppression in some studies"
+triamcinolone,Intranasal Corticosteroid,Vitamin D,INCREASES_DEMAND,THEORETICAL,Minimal systemic exposure but theoretical CYP24A1 induction; clinically significant only at high doses or with concurrent oral steroids
+triamcinolone,Intranasal Corticosteroid,Magnesium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Zinc,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Iron,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Potassium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Vitamin B12,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Folate (B9),NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Vitamin B6,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Vitamin C,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Vitamin A,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Vitamin K,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Chromium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Selenium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Phosphorus,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+triamcinolone,Intranasal Corticosteroid,Sodium,NO_KNOWN,ESTABLISHED,Intranasal corticosteroids have minimal systemic bioavailability; no clinically significant effect on this nutrient at standard doses
+cetirizine,H1 Antihistamine (2nd gen),Zinc,INCREASES_DEMAND,THEORETICAL,Histamine release is zinc-dependent (Zn²⁺ modulates mast cell degranulation); H1 blockade may alter zinc-histamine feedback; cetirizine contains a carboxyl group that could chelate divalent cations in vitro
+cetirizine,H1 Antihistamine (2nd gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Histamine synthesis requires histidine decarboxylase (HDC), a PLP-dependent enzyme; H1 blockade may upregulate compensatory histamine production, increasing B6 demand"
+cetirizine,H1 Antihistamine (2nd gen),Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction with magnesium absorption or excretion
+cetirizine,H1 Antihistamine (2nd gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction with iron metabolism
+cetirizine,H1 Antihistamine (2nd gen),Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+cetirizine,H1 Antihistamine (2nd gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Zinc,INCREASES_DEMAND,THEORETICAL,Histamine release is zinc-dependent (Zn²⁺ modulates mast cell degranulation); H1 blockade may alter zinc-histamine feedback; cetirizine contains a carboxyl group that could chelate divalent cations in vitro
+loratadine,H1 Antihistamine (2nd gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Histamine synthesis requires histidine decarboxylase (HDC), a PLP-dependent enzyme; H1 blockade may upregulate compensatory histamine production, increasing B6 demand"
+loratadine,H1 Antihistamine (2nd gen),Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction with magnesium absorption or excretion
+loratadine,H1 Antihistamine (2nd gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction with iron metabolism
+loratadine,H1 Antihistamine (2nd gen),Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+loratadine,H1 Antihistamine (2nd gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Zinc,INCREASES_DEMAND,THEORETICAL,Histamine release is zinc-dependent (Zn²⁺ modulates mast cell degranulation); H1 blockade may alter zinc-histamine feedback; cetirizine contains a carboxyl group that could chelate divalent cations in vitro
+fexofenadine,H1 Antihistamine (2nd gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Histamine synthesis requires histidine decarboxylase (HDC), a PLP-dependent enzyme; H1 blockade may upregulate compensatory histamine production, increasing B6 demand"
+fexofenadine,H1 Antihistamine (2nd gen),Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction with magnesium absorption or excretion
+fexofenadine,H1 Antihistamine (2nd gen),Iron,BLOCKS_ABSORPTION,THEORETICAL,Fexofenadine is a P-glycoprotein (ABCB1) substrate; fruit juice interactions suggest shared transporter effects; OATP1A2 inhibition could theoretically affect co-transported nutrients
+fexofenadine,H1 Antihistamine (2nd gen),Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+fexofenadine,H1 Antihistamine (2nd gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Zinc,INCREASES_DEMAND,THEORETICAL,Histamine release is zinc-dependent (Zn²⁺ modulates mast cell degranulation); H1 blockade may alter zinc-histamine feedback; cetirizine contains a carboxyl group that could chelate divalent cations in vitro
+desloratadine,H1 Antihistamine (2nd gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Histamine synthesis requires histidine decarboxylase (HDC), a PLP-dependent enzyme; H1 blockade may upregulate compensatory histamine production, increasing B6 demand"
+desloratadine,H1 Antihistamine (2nd gen),Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction with magnesium absorption or excretion
+desloratadine,H1 Antihistamine (2nd gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction with iron metabolism
+desloratadine,H1 Antihistamine (2nd gen),Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+desloratadine,H1 Antihistamine (2nd gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Zinc,INCREASES_DEMAND,THEORETICAL,Histamine release is zinc-dependent (Zn²⁺ modulates mast cell degranulation); H1 blockade may alter zinc-histamine feedback; cetirizine contains a carboxyl group that could chelate divalent cations in vitro
+bilastine,H1 Antihistamine (2nd gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Histamine synthesis requires histidine decarboxylase (HDC), a PLP-dependent enzyme; H1 blockade may upregulate compensatory histamine production, increasing B6 demand"
+bilastine,H1 Antihistamine (2nd gen),Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction with magnesium absorption or excretion
+bilastine,H1 Antihistamine (2nd gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction with iron metabolism
+bilastine,H1 Antihistamine (2nd gen),Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+bilastine,H1 Antihistamine (2nd gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Zinc,INCREASES_DEMAND,THEORETICAL,Histamine release is zinc-dependent (Zn²⁺ modulates mast cell degranulation); H1 blockade may alter zinc-histamine feedback; cetirizine contains a carboxyl group that could chelate divalent cations in vitro
+rupatadine,H1 Antihistamine (2nd gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Histamine synthesis requires histidine decarboxylase (HDC), a PLP-dependent enzyme; H1 blockade may upregulate compensatory histamine production, increasing B6 demand"
+rupatadine,H1 Antihistamine (2nd gen),Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction with magnesium absorption or excretion
+rupatadine,H1 Antihistamine (2nd gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction with iron metabolism
+rupatadine,H1 Antihistamine (2nd gen),Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+rupatadine,H1 Antihistamine (2nd gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for 2nd-gen H1 antihistamines
+diphenhydramine,H1 Antihistamine (1st gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,1st-gen antihistamines have anticholinergic effects that may alter neurotransmitter metabolism; multiple B6-dependent pathways affected
+diphenhydramine,H1 Antihistamine (1st gen),Magnesium,DEPLETES,THEORETICAL,Anticholinergic effects may alter GI motility and nutrient transit time; some evidence of altered mineral absorption with chronic anticholinergic use
+diphenhydramine,H1 Antihistamine (1st gen),Zinc,INCREASES_DEMAND,THEORETICAL,"Similar to 2nd-gen: histamine-zinc axis modulation; additionally, anticholinergic-induced dry mouth may alter zinc taste perception"
+diphenhydramine,H1 Antihistamine (1st gen),Calcium,NO_KNOWN,ESTABLISHED,No direct interaction with calcium metabolism
+diphenhydramine,H1 Antihistamine (1st gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+diphenhydramine,H1 Antihistamine (1st gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,1st-gen antihistamines have anticholinergic effects that may alter neurotransmitter metabolism; multiple B6-dependent pathways affected
+chlorphenamine,H1 Antihistamine (1st gen),Magnesium,DEPLETES,THEORETICAL,Anticholinergic effects may alter GI motility and nutrient transit time; some evidence of altered mineral absorption with chronic anticholinergic use
+chlorphenamine,H1 Antihistamine (1st gen),Zinc,INCREASES_DEMAND,THEORETICAL,"Similar to 2nd-gen: histamine-zinc axis modulation; additionally, anticholinergic-induced dry mouth may alter zinc taste perception"
+chlorphenamine,H1 Antihistamine (1st gen),Calcium,NO_KNOWN,ESTABLISHED,No direct interaction with calcium metabolism
+chlorphenamine,H1 Antihistamine (1st gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+chlorphenamine,H1 Antihistamine (1st gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,1st-gen antihistamines have anticholinergic effects that may alter neurotransmitter metabolism; multiple B6-dependent pathways affected
+clemastine,H1 Antihistamine (1st gen),Magnesium,DEPLETES,THEORETICAL,Anticholinergic effects may alter GI motility and nutrient transit time; some evidence of altered mineral absorption with chronic anticholinergic use
+clemastine,H1 Antihistamine (1st gen),Zinc,INCREASES_DEMAND,THEORETICAL,"Similar to 2nd-gen: histamine-zinc axis modulation; additionally, anticholinergic-induced dry mouth may alter zinc taste perception"
+clemastine,H1 Antihistamine (1st gen),Calcium,NO_KNOWN,ESTABLISHED,No direct interaction with calcium metabolism
+clemastine,H1 Antihistamine (1st gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+clemastine,H1 Antihistamine (1st gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Vitamin B6,INCREASES_DEMAND,THEORETICAL,1st-gen antihistamines have anticholinergic effects that may alter neurotransmitter metabolism; multiple B6-dependent pathways affected
+hydroxyzine,H1 Antihistamine (1st gen),Magnesium,DEPLETES,THEORETICAL,Anticholinergic effects may alter GI motility and nutrient transit time; some evidence of altered mineral absorption with chronic anticholinergic use
+hydroxyzine,H1 Antihistamine (1st gen),Zinc,INCREASES_DEMAND,THEORETICAL,"Similar to 2nd-gen: histamine-zinc axis modulation; additionally, anticholinergic-induced dry mouth may alter zinc taste perception"
+hydroxyzine,H1 Antihistamine (1st gen),Calcium,NO_KNOWN,ESTABLISHED,No direct interaction with calcium metabolism
+hydroxyzine,H1 Antihistamine (1st gen),Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+hydroxyzine,H1 Antihistamine (1st gen),Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented
+montelukast,Leukotriene Antagonist,Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Leukotriene synthesis involves arachidonic acid metabolism; CysLT1 blockade may shift arachidonate toward other pathways that consume B6-dependent enzymes (e.g., sphingolipid synthesis)"
+montelukast,Leukotriene Antagonist,Selenium,POTENTIALLY_BENEFICIAL,THEORETICAL,"By reducing leukotriene-driven inflammation, montelukast may reduce oxidative stress and thus spare selenium-dependent GPx consumption"
+montelukast,Leukotriene Antagonist,Vitamin D,POTENTIALLY_BENEFICIAL,PROBABLE,Montelukast may enhance vitamin D receptor signaling; some studies show synergistic anti-inflammatory effects with vitamin D; CYP3A4 involvement is minimal so no metabolic interference
+montelukast,Leukotriene Antagonist,Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Zinc,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+montelukast,Leukotriene Antagonist,Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Leukotriene synthesis involves arachidonic acid metabolism; CysLT1 blockade may shift arachidonate toward other pathways that consume B6-dependent enzymes (e.g., sphingolipid synthesis)"
+zafirlukast,Leukotriene Antagonist,Selenium,POTENTIALLY_BENEFICIAL,THEORETICAL,"By reducing leukotriene-driven inflammation, montelukast may reduce oxidative stress and thus spare selenium-dependent GPx consumption"
+zafirlukast,Leukotriene Antagonist,Vitamin D,POTENTIALLY_BENEFICIAL,PROBABLE,Montelukast may enhance vitamin D receptor signaling; some studies show synergistic anti-inflammatory effects with vitamin D; CYP3A4 involvement is minimal so no metabolic interference
+zafirlukast,Leukotriene Antagonist,Calcium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Zinc,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Potassium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Vitamin C,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+zafirlukast,Leukotriene Antagonist,Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for leukotriene antagonists
+cromoglicic acid,Mast Cell Stabilizer,Zinc,POTENTIALLY_BENEFICIAL,THEORETICAL,"Mast cell stabilization reduces histamine release, potentially sparing zinc that would otherwise be consumed in inflammatory signaling"
+cromoglicic acid,Mast Cell Stabilizer,Vitamin C,POTENTIALLY_BENEFICIAL,THEORETICAL,Reduced mast cell degranulation may decrease oxidative burst and spare ascorbate reserves
+cromoglicic acid,Mast Cell Stabilizer,Calcium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Iron,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Potassium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Vitamin B6,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Chromium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Selenium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+cromoglicic acid,Mast Cell Stabilizer,Sodium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Zinc,POTENTIALLY_BENEFICIAL,THEORETICAL,"Mast cell stabilization reduces histamine release, potentially sparing zinc that would otherwise be consumed in inflammatory signaling"
+nedocromil,Mast Cell Stabilizer,Vitamin C,POTENTIALLY_BENEFICIAL,THEORETICAL,Reduced mast cell degranulation may decrease oxidative burst and spare ascorbate reserves
+nedocromil,Mast Cell Stabilizer,Calcium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Iron,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Potassium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Vitamin B6,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Chromium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Selenium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+nedocromil,Mast Cell Stabilizer,Sodium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Zinc,POTENTIALLY_BENEFICIAL,THEORETICAL,"Mast cell stabilization reduces histamine release, potentially sparing zinc that would otherwise be consumed in inflammatory signaling"
+ketotifen,Mast Cell Stabilizer,Vitamin C,POTENTIALLY_BENEFICIAL,THEORETICAL,Reduced mast cell degranulation may decrease oxidative burst and spare ascorbate reserves
+ketotifen,Mast Cell Stabilizer,Calcium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Magnesium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Iron,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Potassium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Vitamin B6,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Chromium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Selenium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+ketotifen,Mast Cell Stabilizer,Sodium,NO_KNOWN,ESTABLISHED,No significant interaction; mast cell stabilizers have minimal systemic effects
+omalizumab,Biologic,Vitamin D,POTENTIALLY_BENEFICIAL,THEORETICAL,"By reducing inflammatory cytokine burden (IL-4, IL-5, IL-13, IgE), biologics may reduce CYP24A1-mediated vitamin D catabolism and improve VDR signaling efficiency"
+omalizumab,Biologic,Iron,POTENTIALLY_BENEFICIAL,THEORETICAL,"Reduced chronic inflammation may lower hepcidin levels, improving iron mobilization from stores (reversing anemia of inflammation)"
+omalizumab,Biologic,Zinc,POTENTIALLY_BENEFICIAL,THEORETICAL,Reduced inflammatory cytokines (esp. IL-6) may decrease metallothionein-mediated zinc sequestration
+omalizumab,Biologic,Calcium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Magnesium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Potassium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Vitamin B12,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Folate (B9),NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Vitamin B6,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Vitamin C,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Vitamin A,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Vitamin K,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Chromium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Selenium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Phosphorus,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+omalizumab,Biologic,Sodium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Vitamin D,POTENTIALLY_BENEFICIAL,THEORETICAL,"By reducing inflammatory cytokine burden (IL-4, IL-5, IL-13, IgE), biologics may reduce CYP24A1-mediated vitamin D catabolism and improve VDR signaling efficiency"
+dupilumab,Biologic,Iron,POTENTIALLY_BENEFICIAL,THEORETICAL,"Reduced chronic inflammation may lower hepcidin levels, improving iron mobilization from stores (reversing anemia of inflammation)"
+dupilumab,Biologic,Zinc,POTENTIALLY_BENEFICIAL,THEORETICAL,Reduced inflammatory cytokines (esp. IL-6) may decrease metallothionein-mediated zinc sequestration
+dupilumab,Biologic,Calcium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Magnesium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Potassium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Vitamin B12,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Folate (B9),NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Vitamin B6,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Vitamin C,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Vitamin A,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Vitamin K,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Chromium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Selenium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Phosphorus,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+dupilumab,Biologic,Sodium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Vitamin D,POTENTIALLY_BENEFICIAL,THEORETICAL,"By reducing inflammatory cytokine burden (IL-4, IL-5, IL-13, IgE), biologics may reduce CYP24A1-mediated vitamin D catabolism and improve VDR signaling efficiency"
+mepolizumab,Biologic,Iron,POTENTIALLY_BENEFICIAL,THEORETICAL,"Reduced chronic inflammation may lower hepcidin levels, improving iron mobilization from stores (reversing anemia of inflammation)"
+mepolizumab,Biologic,Zinc,POTENTIALLY_BENEFICIAL,THEORETICAL,Reduced inflammatory cytokines (esp. IL-6) may decrease metallothionein-mediated zinc sequestration
+mepolizumab,Biologic,Calcium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Magnesium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Potassium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Vitamin B12,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Folate (B9),NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Vitamin B6,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Vitamin C,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Vitamin A,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Vitamin K,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Chromium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Selenium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Phosphorus,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+mepolizumab,Biologic,Sodium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Vitamin D,POTENTIALLY_BENEFICIAL,THEORETICAL,"By reducing inflammatory cytokine burden (IL-4, IL-5, IL-13, IgE), biologics may reduce CYP24A1-mediated vitamin D catabolism and improve VDR signaling efficiency"
+benralizumab,Biologic,Iron,POTENTIALLY_BENEFICIAL,THEORETICAL,"Reduced chronic inflammation may lower hepcidin levels, improving iron mobilization from stores (reversing anemia of inflammation)"
+benralizumab,Biologic,Zinc,POTENTIALLY_BENEFICIAL,THEORETICAL,Reduced inflammatory cytokines (esp. IL-6) may decrease metallothionein-mediated zinc sequestration
+benralizumab,Biologic,Calcium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Magnesium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Potassium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Vitamin B12,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Folate (B9),NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Vitamin B6,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Vitamin C,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Vitamin A,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Vitamin K,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Chromium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Selenium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Phosphorus,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+benralizumab,Biologic,Sodium,NO_KNOWN,ESTABLISHED,Biologics are highly targeted; no significant nutrient interaction expected
+pseudoephedrine,Decongestant,Potassium,DEPLETES,THEORETICAL,Sympathomimetic activity may increase renal potassium excretion; β2-adrenergic stimulation drives K⁺ into cells (redistribution)
+pseudoephedrine,Decongestant,Magnesium,DEPLETES,THEORETICAL,Adrenergic stimulation increases renal magnesium excretion; catecholamine-driven Mg²⁺ redistribution into cells
+pseudoephedrine,Decongestant,Calcium,REDISTRIBUTES,THEORETICAL,α1-adrenergic activation increases intracellular Ca²⁺ mobilization; chronic use may alter calcium signaling but not total body stores
+pseudoephedrine,Decongestant,Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Catecholamine synthesis (epinephrine, norepinephrine) requires DOPA decarboxylase (AADC), a PLP-dependent enzyme; sympathomimetic catecholamine turnover increases B6 demand"
+pseudoephedrine,Decongestant,Vitamin C,INCREASES_DEMAND,THEORETICAL,Dopamine β-hydroxylase requires ascorbate as cofactor; increased sympathetic tone increases vitamin C utilization
+pseudoephedrine,Decongestant,Zinc,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+pseudoephedrine,Decongestant,Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Potassium,DEPLETES,THEORETICAL,Sympathomimetic activity may increase renal potassium excretion; β2-adrenergic stimulation drives K⁺ into cells (redistribution)
+oxymetazoline,Decongestant,Magnesium,DEPLETES,THEORETICAL,Adrenergic stimulation increases renal magnesium excretion; catecholamine-driven Mg²⁺ redistribution into cells
+oxymetazoline,Decongestant,Calcium,REDISTRIBUTES,THEORETICAL,α1-adrenergic activation increases intracellular Ca²⁺ mobilization; chronic use may alter calcium signaling but not total body stores
+oxymetazoline,Decongestant,Vitamin B6,INCREASES_DEMAND,THEORETICAL,"Catecholamine synthesis (epinephrine, norepinephrine) requires DOPA decarboxylase (AADC), a PLP-dependent enzyme; sympathomimetic catecholamine turnover increases B6 demand"
+oxymetazoline,Decongestant,Vitamin C,INCREASES_DEMAND,THEORETICAL,Dopamine β-hydroxylase requires ascorbate as cofactor; increased sympathetic tone increases vitamin C utilization
+oxymetazoline,Decongestant,Zinc,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Iron,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Vitamin D,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Vitamin B12,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Folate (B9),NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Vitamin A,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Vitamin K,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Chromium,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Selenium,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Phosphorus,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants
+oxymetazoline,Decongestant,Sodium,NO_KNOWN,ESTABLISHED,No significant interaction documented for decongestants

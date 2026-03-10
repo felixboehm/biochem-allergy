@@ -1,0 +1,66 @@
+gene,category,n_datasets,mean_log2FC,consensus_direction,min_pvalue,cofactors,pathway,nutrient_demand_implication
+IL13,Alarmin/ILC2,2,0.465,unchanged,4.592015292746111e-29,None,Th2 effector cytokine / mucus,
+TSLP,Alarmin/ILC2,3,0.435,down,0.0006032017925268319,None,Thymic stromal lymphopoietin,
+IL33,Alarmin/ILC2,3,0.249,unchanged,0.026867868261543422,None,Alarmin / ILC2 activator,
+IL25,Alarmin/ILC2,2,0.232,unchanged,4.908298263461725e-27,None,IL-17E / ILC2 activator,
+IL5,Alarmin/ILC2,2,0.207,unchanged,9.24943853246639e-29,None,Eosinophil growth factor,
+GATA3,Alarmin/ILC2,3,0.097,unchanged,0.00016413294907398256,Zinc (zinc finger),Th2/ILC2 master TF,
+GPX1,Antioxidant defense,3,0.571,up,9.881525478067777e-14,Selenium (selenocysteine),Glutathione peroxidase 1,INCREASED demand for: Selenium (selenocysteine)
+SOD2,Antioxidant defense,3,0.401,up,0.5158195038519634,Manganese,Mn superoxide dismutase,INCREASED demand for: Manganese
+SOD1,Antioxidant defense,2,0.375,up,3.1258426462948865e-11,"Copper, Zinc",Cu/Zn superoxide dismutase,"INCREASED demand for: Copper, Zinc"
+GPX4,Antioxidant defense,3,0.193,up,0.017106651659657742,Selenium (selenocysteine),Phospholipid glutathione peroxidase,INCREASED demand for: Selenium (selenocysteine)
+TXNRD1,Antioxidant defense,3,0.159,unchanged,0.010441066055691447,"Selenium (selenocysteine), FAD (Vitamin B2)",Thioredoxin reductase 1,
+GCLC,Antioxidant defense,3,0.09,unchanged,0.04802248871081736,"Cysteine, Glutamate",Glutamate-cysteine ligase catalytic,
+GSR,Antioxidant defense,2,-0.256,down,0.019786693627344247,FAD (Vitamin B2),Glutathione reductase,DECREASED utilization of: FAD (Vitamin B2)
+GCLM,Antioxidant defense,2,-0.281,down,0.0030266296835220704,None,Glutamate-cysteine ligase modifier,
+CAT,Antioxidant defense,3,-0.449,down,5.475829572943334e-07,Iron (heme),Catalase,DECREASED utilization of: Iron (heme)
+TXN,Antioxidant defense,2,-0.968,down,2.2829074876081427e-10,Zinc (structural),Thioredoxin,DECREASED utilization of: Zinc (structural)
+CCL11,Eosinophil,2,0.951,unchanged,9.927957668130586e-11,None,Eotaxin-1 (eosinophil chemotaxis),
+PRG2,Eosinophil,2,0.758,unchanged,1.3389404961111078e-15,None,Major basic protein (MBP),
+EPX,Eosinophil,2,0.625,unchanged,0.0,Iron (heme),Eosinophil peroxidase,
+CCR3,Eosinophil,2,0.19,unchanged,1.9612149552166907e-17,None,Eotaxin receptor,
+IL5RA,Eosinophil,3,0.16,unchanged,0.007195389138700609,None,IL-5 receptor alpha,
+RNASE2,Eosinophil,1,-0.609,down,8.799973477601024e-05,None,Eosinophil-derived neurotoxin,
+RNASE3,Eosinophil,1,-1.003,down,8.517067523138717e-21,None,Eosinophil cationic protein,
+HRH1,Histamine metabolism,3,0.741,up,0.037841782321760234,None,Histamine receptor H1,
+HDC,Histamine metabolism,3,0.366,unchanged,1.94183990729122e-08,Vitamin B6 (PLP),Histidine → Histamine,
+HRH2,Histamine metabolism,1,-0.394,down,0.03986506902973853,None,Histamine receptor H2,
+HNMT,Histamine metabolism,3,-0.472,down,3.973596189087429e-06,SAM (methyl donor),Histamine N-methylation,DECREASED utilization of: SAM (methyl donor)
+AOC1,Histamine metabolism,2,-0.862,down,7.215077522637594e-10,"Copper, Vitamin B6 (PLP)",Histamine degradation (DAO),"DECREASED utilization of: Copper, Vitamin B6 (PLP)"
+HRH3,Histamine metabolism,1,-1.014,down,2.809072724540909e-16,None,Histamine receptor H3,
+HRH4,Histamine metabolism,1,-1.088,down,5.635517175518044e-25,None,Histamine receptor H4,
+PTGS2,Inflammation/NF-κB,3,0.961,up,0.07940816483235101,Iron (heme),"COX-2, prostaglandin synthesis",INCREASED demand for: Iron (heme)
+IL6,Inflammation/NF-κB,2,0.802,unchanged,0.02768495633006224,None,Interleukin 6,
+IL1B,Inflammation/NF-κB,3,0.797,up,0.03923106069957154,None,Interleukin 1 beta,
+TNF,Inflammation/NF-κB,2,0.651,unchanged,0.0008143598944657869,None,Tumor necrosis factor alpha,
+RELA,Inflammation/NF-κB,2,0.257,up,4.040598028867248e-07,Zinc (zinc finger),NF-κB p65 subunit,INCREASED demand for: Zinc (zinc finger)
+ALOX5,Inflammation/NF-κB,3,0.244,unchanged,6.781000773820542e-07,"Iron (non-heme), Calcium","5-LOX, leukotriene synthesis",
+NFKB1,Inflammation/NF-κB,3,0.179,up,0.023259217210773637,Zinc (zinc finger),NF-κB p50 subunit,INCREASED demand for: Zinc (zinc finger)
+TPSAB1,Mast cell/allergy,3,1.397,up,0.0014341152193554042,Zinc (structural),Tryptase alpha/beta 1,INCREASED demand for: Zinc (structural)
+MS4A2,Mast cell/allergy,3,1.02,up,2.878777852603958e-06,None,High-affinity IgE receptor beta (FcεRIβ),
+CMA1,Mast cell/allergy,2,0.563,unchanged,2.3853222637450146e-27,Zinc (structural),Chymase 1,
+KIT,Mast cell/allergy,3,0.126,unchanged,0.003913753359068209,None,SCF receptor / mast cell growth,
+FCER1A,Mast cell/allergy,3,-0.065,down,5.541963387883721e-16,None,High-affinity IgE receptor alpha,
+MTHFR,Methylation,3,0.026,unchanged,0.30575961258400003,"FAD (Vitamin B2), Folate","5,10-MTHF → 5-MTHF",
+CBS,Methylation,3,-0.013,up,1.119185512342731e-21,"Vitamin B6 (PLP), Iron (heme)",Homocysteine → cystathionine,"INCREASED demand for: Vitamin B6 (PLP), Iron (heme)"
+MTR,Methylation,2,-0.251,unchanged,0.019103553817646,"Vitamin B12 (cobalamin), 5-MTHF (folate)",Homocysteine → methionine,
+MTRR,Methylation,2,-0.28,down,1.6485958481275216e-07,"FAD (Vitamin B2), SAM",MTR reactivation,"DECREASED utilization of: FAD (Vitamin B2), SAM"
+MAT1A,Methylation,2,-0.376,down,1.8279153009960796e-12,"Magnesium, ATP",Methionine → SAM,"DECREASED utilization of: Magnesium, ATP"
+AHCY,Methylation,2,-0.529,down,9.255834876073129e-12,NAD+,SAH → homocysteine,DECREASED utilization of: NAD+
+SLC39A14,Nutrient transporters,3,0.22,unchanged,0.07033027205192588,"Zinc, Iron, Manganese",Divalent metal importer,
+SLC40A1,Nutrient transporters,2,-0.15,down,0.049017869590698454,"Iron, Copper (hephaestin)",Iron exporter (ferroportin),"DECREASED utilization of: Iron, Copper (hephaestin)"
+SLC11A2,Nutrient transporters,2,-0.168,unchanged,0.006178791388731834,Iron,Fe2+ / divalent metal transporter (DMT1),
+TRPM7,Nutrient transporters,2,-0.173,down,0.009663458399226154,Magnesium,Ubiquitous Mg2+/Ca2+ channel-kinase,DECREASED utilization of: Magnesium
+TRPM6,Nutrient transporters,3,-0.215,down,2.3129725815815292e-05,Magnesium,Epithelial Mg2+ channel,DECREASED utilization of: Magnesium
+SLC30A1,Nutrient transporters,2,-0.233,down,9.568320186537322e-09,Zinc,Zinc efflux transporter,DECREASED utilization of: Zinc
+SLC41A1,Nutrient transporters,3,-0.408,down,0.00919023816612227,Magnesium,Mg2+ transporter,DECREASED utilization of: Magnesium
+IDO1,Tryptophan metabolism,3,1.133,up,0.0005119223730605424,Iron (heme),Trp → kynurenine (immune-induced),INCREASED demand for: Iron (heme)
+KMO,Tryptophan metabolism,3,0.294,up,5.952979769556499e-09,FAD (Vitamin B2),Kynurenine → 3-HK,INCREASED demand for: FAD (Vitamin B2)
+KYNU,Tryptophan metabolism,3,0.252,up,0.007810203564833991,Vitamin B6 (PLP),Kynurenine → anthranilic acid,INCREASED demand for: Vitamin B6 (PLP)
+HAAO,Tryptophan metabolism,2,-0.353,down,4.680697030669172e-05,Iron (non-heme),3-HAA → quinolinic acid,DECREASED utilization of: Iron (non-heme)
+TDO2,Tryptophan metabolism,1,-0.564,down,0.03514073336781433,Iron (heme),Trp → kynurenine (hepatic),DECREASED utilization of: Iron (heme)
+TPH1,Tryptophan metabolism,2,-0.592,down,6.754007839771765e-12,"Iron (non-heme), BH4 (tetrahydrobiopterin)",Trp → 5-HTP (serotonin pathway),"DECREASED utilization of: Iron (non-heme), BH4 (tetrahydrobiopterin)"
+CYP24A1,Vitamin D,3,0.065,unchanged,1.729212239320023e-08,"Iron (heme), NADPH","1,25(OH)₂D inactivation",
+CYP2R1,Vitamin D,2,-0.207,down,1.6005538212935164e-05,"Iron (heme), NADPH",Vitamin D → 25(OH)D hydroxylation,"DECREASED utilization of: Iron (heme), NADPH"
+VDR,Vitamin D,3,-0.33,down,0.005201204433201752,"Vitamin D3, Zinc (zinc finger)",Vitamin D receptor / transcription factor,"DECREASED utilization of: Vitamin D3, Zinc (zinc finger)"
+CYP27B1,Vitamin D,2,-0.911,down,5.533448662381967e-15,"Iron (heme), NADPH","25(OH)D → 1,25(OH)₂D activation","DECREASED utilization of: Iron (heme), NADPH"

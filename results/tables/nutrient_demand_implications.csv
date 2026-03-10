@@ -1,0 +1,32 @@
+gene,category,mean_log2FC,consensus_direction,cofactors,pathway,nutrient_demand_implication
+TPSAB1,Mast cell/allergy,1.397,up,Zinc (structural),Tryptase alpha/beta 1,INCREASED demand for: Zinc (structural)
+IDO1,Tryptophan metabolism,1.133,up,Iron (heme),Trp → kynurenine (immune-induced),INCREASED demand for: Iron (heme)
+PTGS2,Inflammation/NF-κB,0.961,up,Iron (heme),"COX-2, prostaglandin synthesis",INCREASED demand for: Iron (heme)
+GPX1,Antioxidant defense,0.571,up,Selenium (selenocysteine),Glutathione peroxidase 1,INCREASED demand for: Selenium (selenocysteine)
+SOD2,Antioxidant defense,0.401,up,Manganese,Mn superoxide dismutase,INCREASED demand for: Manganese
+SOD1,Antioxidant defense,0.375,up,"Copper, Zinc",Cu/Zn superoxide dismutase,"INCREASED demand for: Copper, Zinc"
+KMO,Tryptophan metabolism,0.294,up,FAD (Vitamin B2),Kynurenine → 3-HK,INCREASED demand for: FAD (Vitamin B2)
+RELA,Inflammation/NF-κB,0.257,up,Zinc (zinc finger),NF-κB p65 subunit,INCREASED demand for: Zinc (zinc finger)
+KYNU,Tryptophan metabolism,0.252,up,Vitamin B6 (PLP),Kynurenine → anthranilic acid,INCREASED demand for: Vitamin B6 (PLP)
+GPX4,Antioxidant defense,0.193,up,Selenium (selenocysteine),Phospholipid glutathione peroxidase,INCREASED demand for: Selenium (selenocysteine)
+NFKB1,Inflammation/NF-κB,0.179,up,Zinc (zinc finger),NF-κB p50 subunit,INCREASED demand for: Zinc (zinc finger)
+CBS,Methylation,-0.013,up,"Vitamin B6 (PLP), Iron (heme)",Homocysteine → cystathionine,"INCREASED demand for: Vitamin B6 (PLP), Iron (heme)"
+SLC40A1,Nutrient transporters,-0.15,down,"Iron, Copper (hephaestin)",Iron exporter (ferroportin),"DECREASED utilization of: Iron, Copper (hephaestin)"
+TRPM7,Nutrient transporters,-0.173,down,Magnesium,Ubiquitous Mg2+/Ca2+ channel-kinase,DECREASED utilization of: Magnesium
+CYP2R1,Vitamin D,-0.207,down,"Iron (heme), NADPH",Vitamin D → 25(OH)D hydroxylation,"DECREASED utilization of: Iron (heme), NADPH"
+TRPM6,Nutrient transporters,-0.215,down,Magnesium,Epithelial Mg2+ channel,DECREASED utilization of: Magnesium
+SLC30A1,Nutrient transporters,-0.233,down,Zinc,Zinc efflux transporter,DECREASED utilization of: Zinc
+GSR,Antioxidant defense,-0.256,down,FAD (Vitamin B2),Glutathione reductase,DECREASED utilization of: FAD (Vitamin B2)
+MTRR,Methylation,-0.28,down,"FAD (Vitamin B2), SAM",MTR reactivation,"DECREASED utilization of: FAD (Vitamin B2), SAM"
+VDR,Vitamin D,-0.33,down,"Vitamin D3, Zinc (zinc finger)",Vitamin D receptor / transcription factor,"DECREASED utilization of: Vitamin D3, Zinc (zinc finger)"
+HAAO,Tryptophan metabolism,-0.353,down,Iron (non-heme),3-HAA → quinolinic acid,DECREASED utilization of: Iron (non-heme)
+MAT1A,Methylation,-0.376,down,"Magnesium, ATP",Methionine → SAM,"DECREASED utilization of: Magnesium, ATP"
+SLC41A1,Nutrient transporters,-0.408,down,Magnesium,Mg2+ transporter,DECREASED utilization of: Magnesium
+CAT,Antioxidant defense,-0.449,down,Iron (heme),Catalase,DECREASED utilization of: Iron (heme)
+HNMT,Histamine metabolism,-0.472,down,SAM (methyl donor),Histamine N-methylation,DECREASED utilization of: SAM (methyl donor)
+AHCY,Methylation,-0.529,down,NAD+,SAH → homocysteine,DECREASED utilization of: NAD+
+TDO2,Tryptophan metabolism,-0.564,down,Iron (heme),Trp → kynurenine (hepatic),DECREASED utilization of: Iron (heme)
+TPH1,Tryptophan metabolism,-0.592,down,"Iron (non-heme), BH4 (tetrahydrobiopterin)",Trp → 5-HTP (serotonin pathway),"DECREASED utilization of: Iron (non-heme), BH4 (tetrahydrobiopterin)"
+AOC1,Histamine metabolism,-0.862,down,"Copper, Vitamin B6 (PLP)",Histamine degradation (DAO),"DECREASED utilization of: Copper, Vitamin B6 (PLP)"
+CYP27B1,Vitamin D,-0.911,down,"Iron (heme), NADPH","25(OH)D → 1,25(OH)₂D activation","DECREASED utilization of: Iron (heme), NADPH"
+TXN,Antioxidant defense,-0.968,down,Zinc (structural),Thioredoxin,DECREASED utilization of: Zinc (structural)
