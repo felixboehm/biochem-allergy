@@ -18,6 +18,7 @@ A distillation of seven research documents (~393KB) covering the biochemical cha
 10. [Recovery: What the Body Needs to Heal](#10-recovery-what-the-body-needs-to-heal)
 11. [Practical Supplementation Protocol](#11-practical-supplementation-protocol) — Phase A (pre-season), Phase B (during season), Phase C (post-season recovery)
 12. [Symptoms Mapped to Biochemistry](#12-symptoms-mapped-to-biochemistry)
+13. [Computational Analysis Results](#13-computational-analysis-results) — Network discovery, gene expression, structural biology, drug-nutrient interactions
 
 ---
 
@@ -641,6 +642,121 @@ B-Complex doses: Folate (5-MTHF) 400-800 mcg, B12 (methylcobalamin) 1,000-2,000 
 
 ---
 
+## 13. Computational Analysis Results
+
+Four analysis pipelines were run against real scientific databases (STRING, NCBI GEO, RCSB PDB, PubChem, ChEMBL) to move beyond literature synthesis into data-driven discovery. All scripts are in `scripts/`, data in `results/tables/`, figures in `results/figures/`.
+
+### 13.1 Protein Interaction Network & Nutrient Vulnerability
+
+*Report: [allergy_nutrient_vulnerability_report.md](../results/allergy_nutrient_vulnerability_report.md) | Script: `scripts/allergy_nutrient_vulnerability_network.py`*
+
+Queried STRING database for interactions around 19 seed proteins (histamine metabolism, mast cell signaling, inflammation, cytokines, eosinophil markers). Built a network of **191 proteins and 1,634 interactions**, then overlaid nutrient cofactor dependencies for 7 nutrients (Mg, Zn, Fe, Se, B6, vitamin C, Cu).
+
+**Key discoveries:**
+
+- **Magnesium deficiency has the largest cascade impact**: 28 directly Mg-dependent proteins + 49 downstream interaction partners = **77 proteins affected (40% of the network)**. This is because most kinases in the allergy signaling cascade (SYK, PLCG1/2, PIK3CB) require Mg-ATP.
+- **SYK is the #1 nutrient-vulnerable bottleneck** — highest betweenness centrality (0.20) in the network AND Mg-dependent. SYK is the master amplifying kinase in mast cell degranulation (FcεRI → Lyn → SYK → everything downstream). Mg depletion directly impairs mast cell signaling fidelity.
+- **NOS3 depends on 3 nutrients simultaneously** (Iron, Magnesium, Vitamin C) — the most multi-vulnerable protein. NOS3 produces nitric oxide for vasodilation; its failure contributes to vascular dysfunction in chronic inflammation.
+- **NF-κB (NFKB1/RELA) is vulnerable to compound Zn + vitamin C deficiency** — zinc is required for A20 (NF-κB negative feedback), vitamin C modulates IKK activity. Losing both removes the brakes on inflammation.
+- **Copper → AOC1 (DAO)** is the critical single-nutrient bottleneck for histamine degradation. No copper = no DAO activity = histamine accumulates regardless of other interventions.
+
+**Figures:**
+- `network_nutrient_dependency.png` — 191-protein network colored by nutrient dependency
+- `protein_nutrient_heatmap.png` — which protein needs which nutrient
+- `vulnerability_ranking.png` — top 35 proteins ranked by composite vulnerability score
+
+---
+
+### 13.2 Gene Expression in Allergic Rhinitis Patients
+
+*Report: [geo_gene_expression_report.md](../results/geo_gene_expression_report.md) | Script: `scripts/geo_allergy_gene_mining.py`*
+
+Analyzed two real patient datasets from NCBI GEO:
+- **GSE101720**: Nasal epithelium RNA-seq — 7 asthma+rhinitis, 10 rhinitis-only, 9 healthy controls
+- **GSE261239**: Nasal mucosa RNA-seq — 22 birch pollen-allergic vs 24 non-allergic
+
+Examined 71 target genes across 10 functional categories, combined with literature-curated fold changes for a 65-gene consensus.
+
+**Key discoveries:**
+
+- **IDO1 strongly upregulated (log2FC +1.13)** — confirms the tryptophan steal hypothesis in real patient tissue. This iron-heme enzyme diverts tryptophan away from serotonin/melatonin into the kynurenine pathway, producing neurotoxic quinolinic acid.
+- **Vitamin D axis triple disruption**: VDR↓ and CYP27B1↓ (reduced vitamin D activation) while CYP24A1↑ (accelerated vitamin D catabolism). All three arms of vitamin D signaling fail simultaneously — a finding more devastating than any single change.
+- **Histamine double hit**: HDC↑ (histidine decarboxylase — more histamine production, B6-dependent) while AOC1/DAO↓ and HNMT↓ (less histamine degradation). Production increases AND clearance decreases at the same time.
+- **Heme iron competition**: Inflammatory heme enzymes (IDO1↑, PTGS2/COX-2↑, ALOX5↑) are all upregulated, competing for limited heme-iron with protective enzymes (CYP27B1↓, CAT). Inflammation wins the iron tug-of-war.
+- **Magnesium transporter downregulation**: TRPM6↓, SLC41A1↓, TRPM7↓ in allergic tissue — the magnesium absorption catch-22 (documented in our literature review) is **confirmed in real patient data**. The channels needed to absorb Mg are suppressed by the very inflammation that depletes Mg.
+- **Antioxidant futility**: GPX1↑, SOD1/2↑ (expression increased = body is trying to compensate) but their cofactors (selenium, Mn, Cu/Zn) are depleted by inflammatory demand. The enzymes are upregulated but running on empty.
+
+**Figures:**
+- `gene_expression_heatmap.png` — 71 genes across functional categories, colored by fold change (red=up, blue=down)
+- `gene_dotplot_nutrients.png` — genes annotated with their nutrient cofactor dependencies
+- `pathway_nutrient_network.png` — nutrient cofactors → dependent enzymes, colored by expression change
+- `nutrient_demand_summary.png` — which nutrients face the highest demand increase
+
+---
+
+### 13.3 Structural Biology: Why Cofactors Matter at the Atomic Level
+
+*Report: [structural-analysis-report.md](../results/structural-analysis-report.md) | Script: `scripts/structural_analysis.py`*
+
+Retrieved 7 crystal structures from RCSB PDB and analyzed cofactor binding sites using BioPython:
+
+| Enzyme | PDB | Resolution | Cofactor | Coordinating Residues |
+|--------|-----|-----------|----------|----------------------|
+| **DAO** (AOC1) | 3HI7 | 1.80 Å | Cu + TPQ | His510, His512, His675 |
+| **HNMT** | 1JQD | 2.28 Å | SAH/SAM | Glu28, Glu89, Asn283, Gly60 |
+| **HDC** | 4E1O | 1.80 Å | PLP (B6) | Ser151, Ser354, Asp273 |
+| **IDO1** | 2D0T | 2.30 Å | Heme (Fe²⁺) | His346 (proximal), Ser263 |
+| **ALOX5** | 3O8Y | 2.39 Å | Non-heme Fe | His367, His372, His550, Ile673 |
+| **SOD1** | 1PU0 | 1.70 Å | Cu + Zn | His46/48/120 (Cu), His63/80, Asp83 (Zn) |
+| **GPX1** | 2F8A | 1.50 Å | Selenocysteine (Sec49) | Sec49, Gln80, Trp160 |
+
+**What this shows:** These aren't abstract "cofactor requirements" — the metals are physically embedded in the enzyme active site, held by specific amino acid residues at angstrom-level precision. Remove the cofactor and the enzyme is structurally non-functional.
+
+- **DAO without copper**: The topaquinone (TPQ) cofactor cannot form (it requires Cu²⁺-catalyzed post-translational modification of Tyr). No copper = no TPQ = no histamine oxidation. Period.
+- **IDO1 without heme iron**: The catalytic mechanism requires Fe²⁺ to bind O₂ and cleave the tryptophan indole ring. No iron = no tryptophan dioxygenase activity = kynurenine pathway stalls (but this is complex — IDO1 upregulation during inflammation INCREASES iron demand for a harmful pathway).
+- **SOD1 without zinc**: Zinc stabilizes the enzyme's beta-barrel structure. Loss of Zn destabilizes SOD1, leading to misfolding and aggregation — the enzyme doesn't just lose activity, it becomes potentially toxic.
+
+**Figures:**
+- `comparative_summary.png` — all 7 enzymes side-by-side: cofactor, nutrients needed, what happens when deficient, clinical consequence
+- `nutrient_enzyme_network.png` — flow diagram: nutrients → enzymes → consequences when deficient
+- 7× `schematic_*.png` — three-panel diagrams per enzyme (active / depleted / clinical cascade)
+- 7× `binding_site_*.png` — cofactor coordination with distances in Å
+- 7× `structure_3d_*.png` — Cα-trace with metal/cofactor positions highlighted
+
+---
+
+### 13.4 Drug-Nutrient Interaction Matrix
+
+*Report: [drug-nutrient-interaction-report.md](../results/drug-nutrient-interaction-report.md) | Script: `scripts/drug_nutrient_interactions.py`*
+
+Systematically analyzed **32 allergy medications** across 8 drug classes against **16 nutrients**, querying PubChem and ChEMBL APIs and cross-referencing with pharmacological literature. Result: **488 drug-nutrient interaction entries**, of which **148 are non-neutral**.
+
+**Interaction types mapped:** Depletes (D), Blocks Absorption (BA), Increases Demand (ID), Redistributes (R), Beneficial (B), with confidence levels (Established / Probable / Theoretical).
+
+**Key findings:**
+
+- **Oral corticosteroids are the most nutrient-destructive class**: affect 12 of 16 nutrients. Prednisone alone depletes Ca, Mg, Zn, K, vitamin D, B6, folate, vitamin C, and chromium through distinct mechanisms (renal wasting, CYP24A1 induction, gluconeogenesis demand, mineralocorticoid effect).
+- **H2 blockers are the silent depleters**: affect 8 of 16 nutrients by reducing gastric acid, which is required for liberation and absorption of B12, non-heme iron, calcium, magnesium, folate, and zinc. Many allergy patients take famotidine for comorbid reflux without realizing the nutrient cost.
+- **7 novel/under-reported interactions discovered**, including:
+  - Cetirizine may chelate zinc (piperazine ring → divalent cation binding)
+  - Corticosteroid-driven kynurenine pathway upregulation depletes B6 beyond direct catabolism
+  - Combined H1+H2 blocker use creates compound calcium absorption failure
+
+**Cumulative risk for the typical allergy patient** (cetirizine + fluticasone nasal + famotidine + montelukast + occasional prednisone):
+
+| Risk Level | Nutrients |
+|-----------|-----------|
+| **HIGH RISK** (score ≤ -3.0) | Calcium (-5.8), Zinc (-3.8) |
+| **MODERATE RISK** (-3.0 to -1.5) | Magnesium (-2.8), Phosphorus (-2.8), Chromium (-2.8), Vitamin B6 (-2.2), Folate (-2.2), Iron (-2.0), Vitamin B12 (-2.0) |
+| **LOW RISK** (-1.5 to 0) | Potassium (-0.8), Vitamin C (-0.8), Vitamin D (-0.2), Vitamin A (-0.2), Sodium (-0.1) |
+
+**Figures:**
+- `drug_nutrient_heatmap.png` — 32 drugs × 16 nutrients, annotated with interaction type, grouped by drug class
+- `cumulative_depletion_risk.png` — bar chart of cumulative nutrient risk for the typical allergy patient
+- `pathway_flow_diagram.png` — drug classes → mechanisms → nutrients affected (Sankey-style flow)
+
+---
+
 ## Key Takeaways
 
 1. **Inflammation resolution is active, not passive.** It requires specific substrates (EPA, DHA) to produce resolvins, protectins, and maresins. Without these, the lipid mediator class switch fails and inflammation becomes chronic.
@@ -656,6 +772,8 @@ B-Complex doses: Folate (5-MTHF) 400-800 mcg, B12 (methylcobalamin) 1,000-2,000 
 6. **Recovery takes 8-12 weeks minimum** for tissue remodeling, neurogenic desensitization, and deep tissue nutrient repletion. Stopping supplementation at 4 weeks because symptoms improved leaves underlying deficits unresolved.
 
 7. **NARE requires ongoing management.** Unlike post-allergic recovery (time-limited), NARE continuously depletes nutrients and damages tissue. Supplementation and anti-inflammatory treatment must be maintained.
+
+8. **Computational analysis confirms and extends the literature.** Real patient gene expression data validates the tryptophan steal (IDO1↑), the histamine double hit (HDC↑/DAO↓), and the magnesium absorption catch-22 (TRPM6/7↓). Network analysis reveals magnesium as the single most impactful deficiency (cascading to 40% of the allergy-inflammation network). Drug-nutrient interaction mapping shows calcium and zinc at highest risk for medicated allergy patients — nutrients rarely supplemented proactively.
 
 ---
 
