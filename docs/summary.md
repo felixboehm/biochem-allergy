@@ -16,7 +16,7 @@ A distillation of seven research documents (~393KB) covering the biochemical cha
 8. [NARE: The IgE-Independent Eosinophilic Disease](#8-nare-the-ige-independent-eosinophilic-disease)
 9. [Distinguishing Post-Allergy Lingering from NARE](#9-distinguishing-post-allergy-lingering-from-nare)
 10. [Recovery: What the Body Needs to Heal](#10-recovery-what-the-body-needs-to-heal)
-11. [Practical Supplementation Protocol](#11-practical-supplementation-protocol)
+11. [Practical Supplementation Protocol](#11-practical-supplementation-protocol) — Phase A (pre-season), Phase B (during season), Phase C (post-season recovery)
 12. [Symptoms Mapped to Biochemistry](#12-symptoms-mapped-to-biochemistry)
 
 ---
@@ -464,7 +464,107 @@ Six overlapping systems sustain inflammation after the trigger is gone:
 
 *Full detail: [post-allergy-recovery-biochemistry.md](post-allergy-recovery-biochemistry.md)*
 
-### Stacking Order (Introduction Schedule)
+### Phase A: Pre-Season Preparation (Start 6-8 Weeks Before Pollen Season)
+
+**Goal:** Build nutrient reserves, prime anti-inflammatory and resolution pathways, strengthen epithelial barriers, and stabilize mast cells *before* the allergic cascade begins. A nutrient-replete body handles allergy season with less damage, less medication need, and faster recovery.
+
+**Why start early:**
+- Omega-3 membrane incorporation takes 8-12 weeks to reach steady state (RBC omega-3 index)
+- Vitamin D → Treg induction takes 4-6 weeks
+- Tissue magnesium repletion (bone + muscle stores) takes 6-8 weeks
+- Glutathione system rebuild (NAC + selenium + B2) takes 4-6 weeks
+- Gut microbiome restoration takes 4-8 weeks
+
+**Weeks 1-2 — Foundation:**
+
+| Nutrient | Form | Dose | Timing | Biochemical Rationale |
+|----------|------|------|--------|----------------------|
+| Magnesium | Glycinate (+ threonate for neuro) | 400 mg elemental/day, split 2-3 doses | Dinner + bedtime | Cofactor for >600 enzymes, stabilizes mast cell membranes (inhibits Ca²⁺ influx → reduces degranulation), enables vitamin D metabolism (CYP2R1, CYP27B1), dampens NMDA excitotoxicity |
+| Vitamin D3 + K2 | Cholecalciferol + MK-7 | D3: 4,000-5,000 IU/day; K2: 100-200 mcg | With fat-containing meal, AM | Induces Treg cells (Foxp3 expression), upregulates cathelicidin/LL-37, shifts immune balance away from Th2. K2 prevents vascular calcification at high D3 doses |
+| Vitamin C | Sodium/calcium ascorbate or liposomal | 1,000-2,000 mg/day divided | Throughout day with meals | DAO cofactor (enables histamine degradation), reduces serum histamine by ~38%, recycles vitamin E, supports glutathione, enhances quercetin absorption later |
+| Omega-3 | Triglyceride (rTG) fish oil, high EPA | EPA+DHA 2,000-3,000 mg/day | With fat-containing meals, split AM/PM | Substrate for resolvin/protectin/maresin synthesis — without adequate EPA/DHA, the lipid mediator class switch fails and inflammation cannot resolve. Start early: membrane incorporation is slow |
+
+**Weeks 3-4 — Immune Modulation + Barrier Repair:**
+
+| Nutrient | Form | Dose | Timing | Biochemical Rationale |
+|----------|------|------|--------|----------------------|
+| Zinc | Picolinate or bisglycinate | 25-30 mg elemental/day | Empty stomach or low-phytate meal | Thymulin cofactor (T cell maturation), tight junction protein synthesis (claudin-3, occludin), SOD1 cofactor, NF-κB regulation via A20 |
+| Copper | Bisglycinate | 1-2 mg/day | Separate time from zinc | DAO cofactor (copper-dependent amine oxidase), SOD1 co-cofactor, ceruloplasmin (iron mobilization). Required when supplementing zinc >30 mg |
+| B-Complex | Methylated forms | See doses below | Morning with breakfast | Methylation cycle support (5-MTHF, methylcobalamin), B6/P5P for DAO + HDC regulation + GABA synthesis, B2 for MTHFR function |
+| Probiotics | Multi-strain, LGG + Bifidobacterium | 20-50 billion CFU/day | Empty stomach, AM or bedtime | Competitive exclusion of S. aureus, butyrate production for epithelial barrier, Treg induction via SCFA-GPR43 signaling |
+
+B-Complex doses: Folate (5-MTHF) 400-800 mcg, B12 (methylcobalamin) 1,000 mcg sublingual, B6 (P5P) 25-50 mg, B2 (riboflavin-5-phosphate) 25 mg, B1 (benfotiamine) 150 mg, B5 (pantethine) 250 mg.
+
+**Weeks 5-6 — Antioxidant + Mast Cell Stabilization:**
+
+| Nutrient | Form | Dose | Timing | Biochemical Rationale |
+|----------|------|------|--------|----------------------|
+| Quercetin | Phytosome or with bromelain 125 mg | 500 mg twice daily | Between meals, 20-30 min before food | Inhibits PLCγ → IP3 → Ca²⁺ flux in mast cells (more potent than cromolyn in vitro), inhibits NF-κB, 5-LOX, COX-2, reduces IL-6 dose-dependently |
+| NAC | Standard | 600 mg twice daily | Empty stomach | Glutathione precursor — builds antioxidant reserves before oxidative stress hits. Mucolytic (breaks disulfide bonds in mucus). Co-supplement with glycine 2-3 g/day |
+| Selenium | Selenomethionine | 200 mcg/day | With food | GPx1/GPx4 cofactor — pre-loads the glutathione peroxidase system before ROS surge. Do not exceed 400 mcg |
+
+**Pre-season summary — by the time pollen arrives, you have:**
+- Tissue Mg stores replete → mast cells more stable, NMDA gated, ATP production optimized
+- Vitamin D at 50-70 ng/mL → Tregs active, cathelicidin/defensins primed
+- RBC omega-3 index rising → resolvin/protectin substrates available for class switch
+- Glutathione system loaded (NAC + Se + B2) → ready for oxidative stress
+- DAO cofactors in place (Cu, B6, vitamin C) → histamine clearance at maximum capacity
+- Epithelial barriers strengthened (Zn, vitamin A from diet, probiotics)
+- Quercetin steady-state → mast cell stabilization active
+
+---
+
+### Phase B: During Allergy Season (Maintain + Increase Key Nutrients)
+
+**Goal:** Sustain nutrient levels against active depletion, support resolution pathways, minimize medication need or offset medication side effects.
+
+**Core protocol — continue all Phase A nutrients, with these adjustments:**
+
+| Nutrient | Adjustment | Rationale |
+|----------|-----------|-----------|
+| Vitamin C | Increase to 2,000-3,000 mg/day divided | Active histamine metabolism consumes vitamin C rapidly; DAO demand surges; oxidative stress from eosinophil EPO |
+| Magnesium | Maintain 400-600 mg/day; add threonate 144 mg if neurogenic symptoms | Cortisol stress response accelerates renal Mg wasting; mast cell degranulation consumes intracellular Mg |
+| Quercetin | Increase to 1,000 mg twice daily | Active mast cell stabilization during peak exposure; competitive with ongoing PLCγ/Ca²⁺ flux |
+| NAC | Maintain 600 mg twice daily + glycine 3 g/day | Glutathione turnover increases 2-3x during active inflammation |
+| Omega-3 | Maintain 2,000-3,000 mg EPA+DHA | Continuous SPM substrate supply — this is when resolution mediators are most needed |
+
+**If taking medications during season, add offsets:**
+
+| Medication | Nutrient Offset | Rationale |
+|-----------|----------------|-----------|
+| Oral corticosteroid burst (prednisone) | Extra Mg 200 mg + Ca 500 mg + D3 2,000 IU + K 200 mg + Zn 15 mg | Corticosteroids deplete Mg (renal wasting via TRPM6), Ca (reduced absorption + increased excretion), D (CYP24A1 induction), K (mineralocorticoid effect), Zn (urinary loss) |
+| H2 blocker (famotidine) | B12 1,000 mcg sublingual + Iron monitoring + Ca citrate | Reduced gastric acid impairs B12 liberation from food, non-heme iron absorption (pH-dependent), calcium dissolution |
+| Intranasal corticosteroid (fluticasone) | No systemic offset needed at standard doses | Systemic absorption is minimal (<1-2%); local effects on nasal mucosa are therapeutic |
+| Montelukast | Monitor mood; ensure adequate omega-3 and B6 | CysLT1 blockade in CNS may affect neuropsychiatric function; adequate omega-3 provides alternative anti-leukotriene pathway |
+
+**Timing during a high-pollen day:**
+
+```
+Morning:  Mg glycinate 200 mg + D3/K2 + B-complex + probiotic
+          Omega-3 1,500 mg with breakfast
+          (If taking antihistamine: take 30 min before breakfast)
+
+Midday:   Vitamin C 1,000 mg
+          Quercetin 1,000 mg (30 min before lunch)
+
+Afternoon: Vitamin C 1,000 mg
+           NAC 600 mg
+
+Evening:   Mg glycinate 200 mg + Mg threonate 144 mg
+           Omega-3 1,500 mg with dinner
+           Zinc 25-30 mg (separate from Mg by 1-2h if high dose)
+           Quercetin 1,000 mg (30 min before dinner)
+           NAC 600 mg + glycine 3g
+           Selenium 200 mcg
+
+Bedtime:   Additional Mg glycinate 100 mg if sleep disturbed
+```
+
+---
+
+### Phase C: Post-Season Recovery (Stacking Order)
+
+*This is the protocol from [post-allergy-recovery-biochemistry.md](post-allergy-recovery-biochemistry.md) for when pollen is gone but the body needs to recover from accumulated damage.*
 
 The order matters -- foundational nutrients enable downstream nutrient function.
 
@@ -512,10 +612,13 @@ B-Complex doses: Folate (5-MTHF) 400-800 mcg, B12 (methylcobalamin) 1,000-2,000 
 5. **NAC/selenium after B-complex**: glutathione synthesis and GPx function benefit from adequate B2 and B6
 6. **Iron only if confirmed deficient after inflammation resolves**: check ferritin + CRP; if CRP >3, ferritin is unreliable. Use iron bisglycinate 25-50 mg every other day with vitamin C.
 
-### Duration
+### Duration by Phase
 
-- **Post-allergy recovery**: 8-12 weeks at therapeutic doses, then maintenance
-- **NARE**: Ongoing supplementation as long as eosinophilic inflammation persists (the disease continuously depletes nutrients)
+- **Phase A (pre-season)**: Start 6-8 weeks before expected pollen onset. Full protocol by week 6.
+- **Phase B (during season)**: Maintain throughout allergy season. Increase vitamin C, quercetin, NAC as needed.
+- **Phase C (post-season recovery)**: 8-12 weeks at therapeutic doses, then transition to maintenance.
+- **NARE**: Ongoing supplementation (Phase B equivalent) as long as eosinophilic inflammation persists — the disease continuously depletes nutrients.
+- **Year-round maintenance** (after completing one full A→B→C cycle): Mg 200-300 mg, D3 2,000-4,000 IU, omega-3 1,000-2,000 mg EPA+DHA, vitamin C 500-1,000 mg, B-complex at maintenance dose.
 
 ---
 
